@@ -1,10 +1,16 @@
 ---
-title: The Mangul Lab at USC
+title: Home 
 ---
 
-# The Mangul Lab at USC
+# The Koslicki Lab at PSU
+Koslicki lab focus on computational biology. We are interested in developing mathematically sound approaches...... (more description)
 
-Mangul Lab is part of the Titus Department of Clinical Pharmacy at [USC School of Pharmacy](https://pharmacyschool.usc.edu/). Our research aims to design, develop and apply novel and robust data-driven, computational approaches that will accelerate the diffusion of genomics and biomedical data into translational research and education.
+
+<!-- section break -->
+
+
+# Put some fancy topics below >_>
+
 
 <!-- section break -->
 
@@ -45,7 +51,7 @@ We are a team of enthusiastic researchers aimed to combine open omics data with 
 {% endcapture %}
 {%
   include feature.html
-  image="images/team/group-photo-4.jpg"
+  image="images/image_3.jpg"
   link="team"
   heading="Our team"
   text=text
