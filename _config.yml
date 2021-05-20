@@ -1,7 +1,7 @@
 # https://jekyllrb.com/docs/configuration/
 
 # site-wide variables
-title: The Koslicki Lab at PSU # title of site, used in tab name and elsewhere
+title: Koslicki Lab # title of site, used in tab name and elsewhere
 email: dmk333@psu.edu # default email
 google: Oz90sQsAAAAJ # default name to search on Google Scholar
 github: KoslickiLab # default GitHub user/org, without the @
@@ -25,7 +25,7 @@ defaults:
       path: ""
     values:
       description: Where Genome gets compiled # description that will show under search engine results
-      background: images/backgrounds/laptop-paper.jpg # background image in header and footer
+      background: images/backgrounds/penn_state_bk.jpeg # background image in header and footer
       layout: default
   # markdown files in /_members
   - scope:
