@@ -2,7 +2,7 @@
 title: Home 
 ---
 
-# The Koslicki Lab at PSU
+# Koslicki Lab at Pennsylvania State University
 Koslicki lab focus on computational biology. We are interested in developing mathematically sound approaches...... (more description)
 
 
