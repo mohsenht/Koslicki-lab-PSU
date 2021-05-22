@@ -1,12 +1,23 @@
 <footer>
-  <div class="footer_row">
-    {%- include social-link.html type="contact" large=true -%}
-    {%- include social-link.html type="github" large=true -%}
-    {%- include social-link.html type="twitter" large=true -%}
-    {%- include social-link.html type="instagram" large=true -%}
-    {%- comment -%}
-    {%- include social-link.html type="rss" large=true -%}
-    {%- endcomment -%}
+  <div class="container-fluid">
+    <div class="grid-container">
+      <div class="item1">
+        <p style='font-size: 20px'> &copy <script> document.write(new Date().getFullYear()) </script> {{ site.title }} </p>
+        <p> <i class="fas fa-envelope fa-sm"> </i> Email: <a href="mailto:{{ site.email }}"> {{ site.email }} </a></p>
+        <p> <i class="fas fa-phone fa-sm"> </i> Phone: <a href="tel:+1-{{ site.phone }}"> {{ site.phone }} </a></p>
+        <p> <i class="fas fa-map fa-sm"> </i> Location: {{ site.location }} </p>
+      </div>
+      <div class="item2">
+        <p style='font-size: 20px'> News </p>
+        {% for article in site.data.news limit:2 %}
+        <p> {{ article.date }} </p>
+        <p><em>{{ article.headline }}</em></p>
+        {% endfor %}
+        <p><a href="{{ 'allnews/allnews.html' | relative_url }}">... see all News</a></p>
+      </div>
+    </div>
   </div>
-  <!-- &copy; <script>document.write(new Date().getFullYear())</script> {{ site.title }} -->
 </footer>
+
+
+
