@@ -1,0 +1,10 @@
+---
+---
+
+@import "variables";
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+  }
+  

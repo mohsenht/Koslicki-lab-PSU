@@ -8,7 +8,7 @@
     data-delay="400"
   >
     <span class="logo">
-      <img src="{{ "/images/koslickilab_logo.png" | prepend: site.baseurl }}" />
+      <img src="{{ "/images/koslickilab_logo.png" | relative_url}}" />
     </span>
     <span class="logo_text">{{ site.title }}</span>
   </a>
@@ -23,12 +23,12 @@
     {%- endcomment -%}
 
     <a
-      href="{{ 'research' | relative_url }}"
+      href="{{ 'publications' | relative_url }}"
       class="nav_link"
       data-tooltip="Published work"
       data-placement="bottom"
       data-delay="400"
-      >Research</a
+      >Publications</a
     >
     <a
       href="{{ 'resources' | relative_url }}"
@@ -45,14 +45,6 @@
       data-placement="bottom"
       data-delay="400"
       >Team</a
-    >
-    <a
-      href="{{ 'blog' | relative_url }}"
-      class="nav_link"
-      data-tooltip="Musings and miscellany"
-      data-placement="bottom"
-      data-delay="400"
-      >Blog</a
     >
     <a
       href="{{ 'media' | relative_url }}"

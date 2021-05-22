@@ -1,9 +1,9 @@
 ---
-title: Research
+title: Publications
 redirect_from: /publications
 ---
 
-# <i class="fas fa-microscope"></i>Research
+# <i class="fas fa-microscope"></i>Publications
 
 
 
@@ -36,11 +36,3 @@ redirect_from: /publications
 
 The citations on this page were generated automatically from just identifiers using the [Manubot cite utility](https://github.com/manubot/manubot#cite) developed in the Greene Lab!
 
-<!-- section break -->
-
-{%
-  include figure.html
-  image="images/backgrounds/califo.jpg"
-  caption="California (CA), USA"
-  width="100%" 
-%}
