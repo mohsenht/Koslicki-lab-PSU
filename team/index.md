@@ -40,6 +40,7 @@ We are actively recruiting highly motivated graduate students and postdocs with 
 
 <!-- section break -->
 
+<!-- 
 ## Alumni
 
 
@@ -57,7 +58,7 @@ These are past lab alumni who have moved on to the industry, other school progra
 {% include team-list.html role="mascot" group="alum" mini="true" %}
 {% endcapture %}
 
-{% include centerer.html html=html %}
+{% include centerer.html html=html %} -->
 
 <!-- section break -->
 
