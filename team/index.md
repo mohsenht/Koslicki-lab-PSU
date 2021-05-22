@@ -38,8 +38,6 @@ We are actively recruiting highly motivated graduate students and postdocs with 
   link="join"
 %}{:.center}
 
-<!-- section break -->
-
 <!-- 
 ## Alumni
 
@@ -59,8 +57,6 @@ These are past lab alumni who have moved on to the industry, other school progra
 {% endcapture %}
 
 {% include centerer.html html=html %} -->
-
-<!-- section break -->
 
 <!-- ## Funding
 
@@ -109,11 +105,9 @@ Our work is made possible by funding from several organizations. -->
   tooltip9="National Institute of Neurological Disorders and Stroke"
 %} -->
 
-<!-- section break -->
-
-{%
+<!-- {%
   include figure.html
   image="images/team/group.jpg"
   caption="Mangul Lab Research Group"
   width="100%" 
-%}
+%} -->
