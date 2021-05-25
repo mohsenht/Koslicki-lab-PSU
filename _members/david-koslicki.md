@@ -20,9 +20,9 @@ email: dmk333@psu.edu ## fill out your email
 website: https://www.linkedin.com/in/david-koslicki-86174b97/ ## fill out the address of your pesonal website if you have or your linkedin profile if you like
 github: https://github.com/dkoslicki ## your github account if you like to put it on your profile
 google: Oz90sQsAAAAJ
-#twitter: [@DavidKoslicki](https://twitter.com/DavidKoslicki) ## your twitter account if you like to put it on your profile
-#instagram: [koslickid](https://www.instagram.com/koslickid/) ## your instagram account if you like to put it on your profile
-#youtube: [dmkoslicki](https://www.youtube.com/channel/UC4ocxPwjndh1c9xr0HyD27Q)  ## your youtube account if you like to put it on your profile
+twitter: DavidKoslicki ## your twitter account if you like to put it on your profile
+instagram: koslickid ## your instagram account if you like to put it on your profile
+youtube: dmkoslicki ##https://www.youtube.com/channel/UC4ocxPwjndh1c9xr0HyD27Q  ## your youtube account if you like to put it on your profile
 
 ---
 [comment]: Fill out your description below 
