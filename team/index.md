@@ -10,7 +10,7 @@ redirect_from:
 
 # <i class="fas fa-users"></i>Team
 
-Our diverse team is composed of a highly enthusiastic and collaborative researchers. We foster a friendly and collaborative environment, where team mmbers can learn from each other.
+Our diverse team is composed of a highly enthusiastic and collaborative researchers. We foster a friendly and collaborative environment, where team members can learn from each other.
 
 
 {% capture html %}
@@ -29,7 +29,7 @@ Our diverse team is composed of a highly enthusiastic and collaborative research
 
 <!-- section break -->
 
-We are actively recruiting highly motivated graduate students and postdocs with a capable computational background. The Mangul Lab is committed to ensuring an inclusive and supportive environment regardless of age, gender, sexual orientation, disability, race, ethnicity, religion, nationality, or socioeconomic background.
+The Koslicki Lab is committed to ensuring an inclusive and supportive environment regardless of age, gender, sexual orientation, disability, race, ethnicity, religion, nationality, or socioeconomic background.
 
 {%
   include big-link.html
