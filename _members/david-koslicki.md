@@ -18,7 +18,7 @@ role: pi ## options: pi-Principal Investigator, postdoc-Postdoctoral Researcher,
 # contact info and social media links
 email: dmk333@psu.edu ## fill out your email
 website: https://www.linkedin.com/in/david-koslicki-86174b97/ ## fill out the address of your pesonal website if you have or your linkedin profile if you like
-github: https://github.com/dkoslicki ## your github account if you like to put it on your profile
+github: dkoslicki ## your github account if you like to put it on your profile
 google: Oz90sQsAAAAJ
 twitter: DavidKoslicki ## your twitter account if you like to put it on your profile
 instagram: koslickid ## your instagram account if you like to put it on your profile
