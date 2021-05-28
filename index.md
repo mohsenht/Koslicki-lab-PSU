@@ -37,7 +37,7 @@ We believe in data analysis transparency, effective sharing, reproducibility, so
 {%
   include feature.html
   image="images/image_2.jpg"
-  link="resources"
+  link="research"
   heading="Reasoning Over Large Knowledge Graphs"
   text=text
 %}
@@ -49,7 +49,7 @@ We are a team of enthusiastic researchers aimed to combine open omics data with 
 {%
   include feature.html
   image="images/image_3.jpg"
-  link="team"
+  link="research"
   heading="Metagenomics Research"
   text=text
 %}
