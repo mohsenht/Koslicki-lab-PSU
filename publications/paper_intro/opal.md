@@ -1,0 +1,19 @@
+---
+---
+
+<h1><font color="orange"> Assessing taxonomic metagenome profilers with OPAL </font></h1>
+
+### Summary
+
+We introduce a framework to compare tools utilized to determine what microbes are present in a sample, and at what relative abundance. This will help computational biologists design better tools to analyze communities of microorganisms (which affect nearly everything in existence!).
+
+
+
+### Abstract
+
+The explosive growth in taxonomic metagenome profiling methods over the past years has created a need for systematic comparisons using relevant performance criteria. The Open-community Profiling Assessment tooL (OPAL) implements commonly used performance metrics, including those of the first challenge of the initiative for the Critical Assessment of Metagenome Interpretation (CAMI), together with convenient visualizations. In addition, we perform in-depth performance comparisons with seven profilers on datasets of CAMI and the Human Microbiome Project. OPAL is freely available at [https://github.com/CAMI-challenge/OPAL](https://github.com/CAMI-challenge/OPAL). 
+
+<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-019-1646-y/MediaObjects/13059_2019_1646_Fig2_HTML.png?as=webp" />
+
+
+
