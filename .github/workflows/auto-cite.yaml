@@ -28,6 +28,6 @@ jobs:
       - name: Commit updated citations
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          file_pattern: "_data/research-output.yaml"
+          file_pattern: "_data/research-output.yml"
           commit_message: "Generate citations"
           push_options: --force
