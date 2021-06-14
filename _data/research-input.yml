@@ -59,12 +59,12 @@
   tags: 
     - metagenome 
     - taxonomic profile
-  description: We introduce a framework to compare tools utilized to determine what microbes are present in a sample, and at what relative abundance. This will help computational biologists design better tools to analyze communities of microorganisms (which affect nearly everything in existence!).
   repo: CAMI-challenge/OPAL
+  descriptions: We introduce a framework to compare tools utilized to determine what microbes are present in a sample, and at what relative abundance. This will help computational biologists design better tools to analyze communities of microorganisms (which affect nearly everything in existence!).
   extra-links:
     - type: data
       link: paper_intro/opal
-      text: Overview
+      text: Highlights
     - type: source
       link: https://github.com/CAMI-challenge
       text: Github

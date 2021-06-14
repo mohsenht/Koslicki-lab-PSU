@@ -15,6 +15,12 @@
 {{- paper.publisher -}}
 &nbsp; · &nbsp;
 {{- paper.date | date: "%d %b %Y" -}}
+&nbsp; · &nbsp;
+{% if paper.descriptions.size > 0 %}
+<br> <br>
+Overview:  <br>
+{{- paper.descriptions -}}
+{% endif %}
 {%- endcapture -%}
 
 {% capture tags %}
