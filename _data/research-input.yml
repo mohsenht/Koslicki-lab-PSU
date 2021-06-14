@@ -10,19 +10,6 @@
       text: CAMI challenge
 
 
-- id: doi:10.1186/s13059-020-02159-0
-  image: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02159-0/figures/1
-  tags:
-    - metagenomic
-    - containment min hash
-  repo: nlapier2/Metalign
-  extra-links:
-    - type: source
-      link: https://github.com/nlapier2/Metalign
-      text: Git repo
-
-
-
 
 # below is an example
 - id: doi:10.7554/eLife.32822
