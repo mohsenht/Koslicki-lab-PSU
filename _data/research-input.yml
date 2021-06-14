@@ -54,6 +54,8 @@
 
 
 # demo publication
+
+### OPAL
 - id: 10.1186/s13059-019-1646-y
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-019-1646-y/MediaObjects/13059_2019_1646_Fig2_HTML.png?as=webp
   tags: 
@@ -68,5 +70,40 @@
     - type: source
       link: https://github.com/CAMI-challenge
       text: Github
+
+
+### SEK
+- id: 10.1093/bioinformatics/btu320
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bioinformatics/30/17/10.1093_bioinformatics_btu320/2/m_btu320f1p.jpeg?Expires=1625782229&Signature=VEAX~XRSwzgpqPJBRI2TeAVYxsrbs~8TPqVahAi0eMNNFIKpTxiffMRwFJq1hfAs6GlXuXEJoQfw7hI1noFlXZzd6W0EhREXUDBL7JAOLw4Ea6uSaM6Ps5-ImY16auSJat9VDTiEHYH0mMXIoS22Oze-3393O9zlY~rLAtW-EHKVXvb-MmIg443m~3uuSON9zwbnFAAqGBjDA~dkKIZaQB~ThrBmDV9NW36DrdstYwDJELoSoDiN2~oaZXOyx1gdydvUnZBdenRSUapJ6U0C5B5LsFdprdkZ5uBogDKRAgqvx~1yP0MUKfcqMqipaKMBwgApQHDLb4LLAy5uu6~8Vw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  tags:
+    - k-mer
+    - metagenome
+  descriptions: In this paper, we improve both the accuracy and speed of the Quikr approach to classifying a given set of metagenomic DNA sequences (16S rRNA). This is accomplished by increasing the number of "feature vectors" we use for each training genome, and by modifying the Lawson-Hanson algorithm for non-negative least squares.
+  extra-links:
+    - type: data
+      link: paper_intro/sek
+      text: Highlights
+    - type: source
+      link: https://github.com/dkoslicki/SEK
+      text: Github
+
+
+- id: 10.1093/bioinformatics/btx798
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bioinformatics/34/9/10.1093_bioinformatics_btx798/3/m_btx798f6.png?Expires=1625788161&Signature=iH9au6iC4JyWxiTiEcS-SzcFFTDAUlHK~ekYpD1384iyQgSQyt~d57ZSUUSLe-600k3KuYBaUeYFmbbDuKDds0ExwtV5czgrQzm0mYnGbPCQcsk~LTTW1dsAFThvntHY-LTrj3XP2GD8T~pOS3v3hxQOsH3oKwH9DNInjsxUjyfvW2Vjc9zc6Q~YBsCAcLSa4Q5nLKzr-WT-zpuwFLxiVezPW5-Gj41BMoiXjyhXV-IgZtmaDm7EhO~8CPPYpfAB0RzzPzr2WDLolfFkUT~2Iph2wV~gY5XxWpnzjxod7zR8J87CstnrzHJmasXq85UaIKSYkDw4uIydE-Rk~jOAwQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  tags:
+    - network
+    - motif
+  descriptions: A gene regulatory network is basically a representation of how genes interact with each other. In this work, we develop the only (to date) method to assess the accuracy of so called "motif discovery algorithms" that seek to find important sub-networks of a given gene regulatory network. We develop a provably correct mathematical approach (based on a variety of metrics that say how close two matrices are to each other) and use this to assess the performance of a variety of motif discovery algorithms.
+  extra-links:
+    - type: data
+      link: paper_intro/indecut
+      text: Highlights
+    - type: source
+      link: https://github.com/megrawlab/IndeCut
+      text: Github
+
+
+
+
 
 

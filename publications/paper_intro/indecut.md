@@ -1,0 +1,12 @@
+---
+---
+
+<h1><font color="orange">IndeCut evaluates performance of network motif discovery algorithms  </font></h1>
+
+### Summary
+A gene regulatory network is basically a representation of how genes interact with each other. In this work, we develop the only (to date) method to assess the accuracy of so called "motif discovery algorithms" that seek to find important sub-networks of a given gene regulatory network. We develop a provably correct mathematical approach (based on a variety of metrics that say how close two matrices are to each other) and use this to assess the performance of a variety of motif discovery algorithms.
+
+### Abstract
+Genomic networks represent a complex map of molecular interactions which are descriptive of the biological processes occurring in living cells. Identifying the small over-represented circuitry patterns in these networks helps generate hypotheses about the functional basis of such complex processes. Network motif discovery is a systematic way of achieving this goal. However, a reliable network motif discovery outcome requires generating random background networks which are the result of a uniform and independent graph sampling method. To date, there has been no sound practical method to numerically evaluate whether any network motif discovery algorithm performs as intended - thus it was not possible to assess the validity of resulting network motifs. In this work, we present IndeCut, the first and only method that allows characterization of network motif finding algorithm performance on any network of interest. We demonstrate that it is critical to use IndeCut prior to running any network motif finder for two reasons. First, IndeCut estimates the minimally required number of samples that each network motif discovery tool needs in order to produce an outcome that is both reproducible and accurate. Second, IndeCut allows users to choose the most accurate network motif discovery tool for their network of interest among many available options. 
+
+<img src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bioinformatics/34/9/10.1093_bioinformatics_btx798/3/m_btx798f6.png?Expires=1625788161&Signature=iH9au6iC4JyWxiTiEcS-SzcFFTDAUlHK~ekYpD1384iyQgSQyt~d57ZSUUSLe-600k3KuYBaUeYFmbbDuKDds0ExwtV5czgrQzm0mYnGbPCQcsk~LTTW1dsAFThvntHY-LTrj3XP2GD8T~pOS3v3hxQOsH3oKwH9DNInjsxUjyfvW2Vjc9zc6Q~YBsCAcLSa4Q5nLKzr-WT-zpuwFLxiVezPW5-Gj41BMoiXjyhXV-IgZtmaDm7EhO~8CPPYpfAB0RzzPzr2WDLolfFkUT~2Iph2wV~gY5XxWpnzjxod7zR8J87CstnrzHJmasXq85UaIKSYkDw4uIydE-Rk~jOAwQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" />

@@ -8,19 +8,37 @@ redirect_from:
 
 # <i class="fas fa-tools"></i>Software
 
-This page includes our open-sourced softwares, some information we find useful, our lab videos and the news in which Mangul Lab was present.  
+This page includes our open-sourced softwares, lab information, and some useful links.
 
 <!-- section break -->
 
-## We develop omics software!
+## We develop CompuBio software!
 
 {% capture html %}
-{% include resource-list.html type="featured" size="large" %}
+{% include resource-list.html type="software" size="large" %}
 {% endcapture %}
 
 {% include centerer.html html=html %}
 
 <!-- section break -->
+
+
+
+
+
+## Check our lab story!
+
+{% capture html %}
+{% include resource-list.html type="lab" size="medium" %}
+{% endcapture %}
+
+{% include centerer.html html=html %}
+
+<!-- section break -->
+
+
+
+
 
 ## Information we find useful!
 
@@ -32,15 +50,12 @@ This page includes our open-sourced softwares, some information we find useful, 
 
 <!-- section break -->
 
-## Watch our lab videos!
 
-{% capture html %}
-{% include resource-list.html type="other" size="medium" %}
-{% endcapture %}
 
-{% include centerer.html html=html %}
 
-<!-- section break -->
+
+
+
 
 ## We’re in the news!
 
