@@ -41,14 +41,16 @@ for index, input_paper in enumerate(input_papers, start=1):
     print("------------------------------\n")
 
     # if input paper already exists in output, use that citation info to save time
-    matches = [p for p in output_papers if p.get("id", "") == input_paper.get("id", "")]
-    if len(matches) > 0:
-        print("Paper already in output. Using existing citation.")
-        new_papers.append(matches[0])
-
+    #matches = [p for p in output_papers if p.get("id", "") == input_paper.get("id", "")]
+    #if len(matches) > 0:
+    #    print("Paper already in output. Using existing citation.")
+    #    new_papers.append(matches[0])
+    
     # otherwise, run manubot to get new citation metadata
+    if 1 == 2:
+        print("rm this if and unblock the chunk above to reactivate the check dup step")
     else:
-        print("Paper not in output. Running Manubot to generate citation.\n")
+        #print("Paper not in output. Running Manubot to generate citation.\n")
         commands = ["manubot", "cite", input_paper["id"], "--log-level", "DEBUG"]
         output = subprocess.Popen(commands, stdout=subprocess.PIPE)
         citation = json.loads(output.communicate()[0])[0]

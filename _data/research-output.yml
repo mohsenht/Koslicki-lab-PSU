@@ -1,107 +1,28 @@
-- title: "Critical Assessment of Metagenome Interpretation\u2014a benchmark of metagenomics\
-    \ software"
+- title: Assessing taxonomic metagenome profilers with OPAL
   authors:
-  - Alexander Sczyrba
-  - Peter Hofmann
-  - Peter Belmann
-  - David Koslicki
-  - Stefan Janssen
-  - "Johannes Dr\xF6ge"
-  - Ivan Gregor
-  - Stephan Majda
-  - Jessika Fiedler
-  - Eik Dahms
-  - Andreas Bremges
-  - Adrian Fritz
-  - Ruben Garrido-Oter
-  - "Tue Sparholt J\xF8rgensen"
-  - Nicole Shapiro
-  - Philip D Blood
-  - Alexey Gurevich
-  - Yang Bai
-  - Dmitrij Turaev
-  - Matthew Z DeMaere
-  - Rayan Chikhi
-  - Niranjan Nagarajan
-  - Christopher Quince
   - Fernando Meyer
-  - "Monika Balvo\u010Di\u016Bt\u0117"
-  - Lars Hestbjerg Hansen
-  - "S\xF8ren J S\xF8rensen"
-  - Burton K H Chia
-  - Bertrand Denis
-  - Jeff L Froula
-  - Zhong Wang
-  - Robert Egan
-  - Dongwan Don Kang
-  - Jeffrey J Cook
-  - Charles Deltel
-  - Michael Beckstette
-  - Claire Lemaitre
-  - Pierre Peterlongo
-  - Guillaume Rizk
-  - Dominique Lavenier
-  - Yu-Wei Wu
-  - Steven W Singer
-  - Chirag Jain
-  - Marc Strous
-  - Heiner Klingenberg
-  - Peter Meinicke
-  - Michael D Barton
-  - Thomas Lingner
-  - Hsin-Hung Lin
-  - Yu-Chieh Liao
-  - Genivaldo Gueiros Z Silva
-  - Daniel A Cuevas
-  - Robert A Edwards
-  - Surya Saha
-  - Vitor C Piro
-  - Bernhard Y Renard
-  - Mihai Pop
-  - Hans-Peter Klenk
-  - "Markus G\xF6ker"
-  - Nikos C Kyrpides
-  - Tanja Woyke
-  - Julia A Vorholt
-  - Paul Schulze-Lefert
-  - Edward M Rubin
-  - Aaron E Darling
-  - Thomas Rattei
-  - Alice C McHardy
-  publisher: Nature Methods
-  date: '2017-10-02'
-  link: https://doi.org/gbzspt
-  id: doi:10.1038/nmeth.4458
-  image: https://www.nature.com/articles/nmeth.4458/figures/3
+  - Andreas Bremges
+  - Peter Belmann
+  - Stefan Janssen
+  - Alice C. McHardy
+  - David Koslicki
+  publisher: Genome Biology
+  date: '2019-03-04'
+  link: https://doi.org/gf9vbw
+  id: 10.1186/s13059-019-1646-y
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-019-1646-y/MediaObjects/13059_2019_1646_Fig2_HTML.png?as=webp
   tags:
-  - metagenomics
-  repo: CAMI-challenge
+  - metagenome
+  - taxonomic profile
+  description: We introduce a framework to compare tools utilized to determine what
+    microbes are present in a sample, and at what relative abundance. This will help
+    computational biologists design better tools to analyze communities of microorganisms
+    (which affect nearly everything in existence!).
+  repo: CAMI-challenge/OPAL
   extra-links:
+  - type: data
+    link: paper_intro/opal
+    text: Overview
   - type: source
     link: https://github.com/CAMI-challenge
-    text: CAMI challenge
-- title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  extra-links:
-  - type: preprint
-    link: https://doi.org/10.7287/peerj.preprints.3100v1
-  - type: manubot
-    link: https://greenelab.github.io/scihub-manuscript/
-  - type: source
-    link: https://github.com/greenelab/scihub-manuscript
-    text: Manuscript source
-  - type: source
-    link: https://github.com/greenelab/scihub
-    text: Analyses source
+    text: Github
