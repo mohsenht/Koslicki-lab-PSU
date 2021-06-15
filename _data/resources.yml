@@ -36,4 +36,36 @@
 #  repo: Mangul-Lab-USC/telescope
 
 
+###### RTX
+- title: "RTX: biomedial reasoning tool"
+  type: software
+  image: https://ascpt.onlinelibrary.wiley.com/cms/asset/ee27ed39-5572-44c6-b514-52f300be17a3/cts12591-fig-0002-m.jpg
+  link: https://github.com/RTXteam/RTX#about-the-translator-project-team-expander-agent-and-arax
+  description: part of the Translator program of which the goal is to accelerate the development of disease therapies by harnessing artificial intelligence, Web-based distributed computing, and computationally-assisted biomedical knowledge exploration. 
+
+
+###### CMash
+- title: "CMash: multi-resolution containment MinHash"
+  type: software
+  image: images/software/cmash_image.png
+  link: https://github.com/dkoslicki/CMash
+  description: fast and accurate set similarity estimation via containment min hash
+
+
+###### CMPSC 360
+- title: "CMPSC360: Discrete Mathematics"
+  type: lab
+  image: images/software/cmpsc360.png
+  link: https://www.youtube.com/playlist?list=PLEdp7JQiSiMwOfRsetEjbQFCCR0q7EtQs
+  description: lecture of CMPSC360 at PSU made by Dr. Koslicki
+
+
+
+
+
+
+  
+
+
+
 

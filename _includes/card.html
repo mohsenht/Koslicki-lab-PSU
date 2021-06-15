@@ -7,7 +7,7 @@
 <div class="card" data-size="{{ size }}">
   {% assign placeholder = include.placeholder | default: "images/placeholder.svg" | relative_url %}
   <a
-    {% if include.link %}href="{{ include.link | relative_url }}"{% endif %}
+    {% if include.link %}href="{{ include.image | relative_url }}"{% endif %}
     class="card_image"
   >
     {%- if include.image -%}
