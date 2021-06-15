@@ -8,6 +8,8 @@
 - [ ] Header sections to be kept / added / deleted
 - [ ] Change "Software" name
 - [ ] Contents to add?
+- [ ] Determine where to put news
+- [ ] Whether we should preserve the opening animation
 
 
 
