@@ -55,6 +55,12 @@
 {%- assign link = "/feed.xml" | absolute_url -%}
 {%- endif -%}
 
+{%- if include.type == "cv" -%}
+{%- assign icon = "fas fa-file" -%}
+{%- assign text = "Personal CV" -%}
+{%- assign link = include.link | default: "" -%}
+{%- endif -%}
+
 {%- comment -%}
 To add more options for icons, see:
 https://fontawesome.com/icons?d=gallery&q=icon&m=free

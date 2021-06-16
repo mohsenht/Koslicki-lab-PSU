@@ -19,6 +19,7 @@ role: phd ## options: pi-Principal Investigator, postdoc-Postdoctoral Researcher
 email: cqm5886@psu.edu ## fill out your email
 website: https://chunyuma.github.io ## fill out the address of your pesonal website if you have or your linkedin profile if you like
 github: chunyuma ## your github account if you like to put it on your profile
+cv: https://www.linkedin.com/in/chunyu-ma-419257ba ## the link of your personal resume
 # google: ## your google scholar account if you like to put it on your profile
 # twitter: ## your twitter account if you like to put it on your profile
 # instagram: ## your instagram account if you like to put it on your profile

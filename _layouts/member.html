@@ -36,6 +36,9 @@ layout: default
 {% if page.youtube %}
 {% include social-link.html type="youtube" link=page.youtube %}
 {% endif %}
+{% if page.cv %}
+{% include social-link.html type="cv" link=page.cv %}
+{% endif %}
 {% endcapture %}
 
 {% include centerer.html html=html %}
