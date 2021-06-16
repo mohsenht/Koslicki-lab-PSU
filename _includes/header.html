@@ -1,13 +1,15 @@
 <header>
   {% include fullscreen.html %}
-  <a
-    href="{{ '/' | relative_url }}"
-    class="logo_row"
-    data-tooltip="Home"
-    data-placement="bottom"
-    data-delay="400"
+
+  <a style='display:unset'
+  href="{{ '/' | relative_url }}"
+  class="logo_row"
+  data-tooltip="Home"
+  data-placement="bottom"
+  data-delay="400"
+  
   >
-    <span class="logo">
+    <span style='display:block;text-align:center;' class="logo">
       <img src="{{ "/images/koslickilab_logo.png" | relative_url}}" />
     </span>
     <span class="logo_text">{{ site.title }}</span>
