@@ -5,6 +5,15 @@ title: Home
 # Koslicki Lab at Pennsylvania State University
 Koslicki lab focus on computational biology. We are interested in developing mathematically sound approaches...... (more description)
 
+<div class="item2">
+  <p style='text-align: center; font-size: 18px'> Recent News About Our Lab</p>
+  {% for article in site.data.news limit:2 %}
+  <p> {{ article.date }} </p>
+  <p><em>{{ article.headline }}</em></p>
+  {% endfor %}
+  <p><a href="{{ 'allnews/allnews.html' | relative_url }}">... see all News</a></p>
+</div>
+
 
 <!-- section break -->
 
