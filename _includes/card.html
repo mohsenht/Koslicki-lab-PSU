@@ -35,7 +35,7 @@
 
     {%- assign truncate = include.truncate | default: 0 -%}
     {%- if i <= truncate -%}
-    {%- assign truncate = true -%}
+    {%- assign truncate = false -%}
     {%- else -%}
     {%- assign truncate = false -%}
     {%- endif -%}
