@@ -3,6 +3,12 @@
 
 @import "variables";
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
