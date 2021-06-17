@@ -33,7 +33,7 @@ Computational data-driven research focuses on developing and applying computatio
 
 {%
   include feature.html
-  image="images/image_1.jpg"
+  image="images/direction1_image.jpg"
   link="research"
   heading="Algorithm Development or Mathematical Theory"
   text=text
@@ -45,7 +45,7 @@ We believe in data analysis transparency, effective sharing, reproducibility, so
 
 {%
   include feature.html
-  image="images/image_2.jpg"
+  image="images/direction2_image.jpg"
   link="research"
   heading="Reasoning Over Large Knowledge Graphs"
   text=text
