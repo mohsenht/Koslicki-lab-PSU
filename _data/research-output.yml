@@ -26,6 +26,9 @@
   - type: source
     link: https://github.com/CAMI-challenge
     text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/372680v1.article-info
+    text: Preprint
 - title: 'SEK: sparsity exploiting k-mer-based estimation of bacterial community composition'
   authors:
   - S. Chatterjee
@@ -59,6 +62,9 @@
   - type: source
     link: https://github.com/dkoslicki/SEK
     text: Github
+  - type: preprint
+    link: https://arxiv.org/abs/1407.0387
+    text: Preprint
 - title: IndeCut evaluates performance of network motif discovery algorithms
   authors:
   - Mitra Ansariola
@@ -86,3 +92,6 @@
   - type: source
     link: https://github.com/megrawlab/IndeCut
     text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/156836v1.full
+    text: Preprint
