@@ -14,6 +14,17 @@
 {% include tags.html repo=resource.repo %}
 {% endcapture %}
 
+{% capture extralinks %}
+{% if resource.extra-links.size > 0 %}
+<div style="justify-content:left;">
+  {%- for link in resource.extra-links -%}
+  {% include paper-link.html type=link.type link=link.link text=link.text %}
+  {%- endfor -%}
+</div>
+{% endif %}
+{% endcapture %}
+
+
 {%-
   include card.html
   size=include.size
@@ -22,5 +33,6 @@
   link=resource.link
   row1=resource.description
   row2=tags
+  row3=extralinks
 -%}
 {% endfor %}

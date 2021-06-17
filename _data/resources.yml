@@ -42,7 +42,13 @@
   image: https://ascpt.onlinelibrary.wiley.com/cms/asset/ee27ed39-5572-44c6-b514-52f300be17a3/cts12591-fig-0002-m.jpg
   link: https://github.com/RTXteam/RTX#about-the-translator-project-team-expander-agent-and-arax
   description: part of the Translator program of which the goal is to accelerate the development of disease therapies by harnessing artificial intelligence, Web-based distributed computing, and computationally-assisted biomedical knowledge exploration. 
-
+  extra-links:
+    - type: source
+      link: https://github.com/RTXteam/RTX
+      text: Github
+    - type: ui
+      link: https://arax.ncats.io/
+      text: UI
 
 ###### CMash
 - title: "CMash: multi-resolution containment MinHash"
@@ -50,7 +56,13 @@
   image: images/software/cmash_image.png
   link: https://github.com/dkoslicki/CMash
   description: fast and accurate set similarity estimation via containment min hash
-
+  extra-links:
+    - type: source
+      link: https://github.com/dkoslicki/CMash
+      text: Github
+    - type: conda
+      link: https://anaconda.org/bioconda/cmash
+      text: Conda
 
 ###### CMPSC 360
 - title: "CMPSC360: Discrete Mathematics"
