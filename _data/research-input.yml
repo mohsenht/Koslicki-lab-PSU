@@ -70,6 +70,9 @@
     - type: source
       link: https://github.com/CAMI-challenge
       text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/372680v1.article-info
+      text: Preprint
 
 
 ### SEK
@@ -86,6 +89,9 @@
     - type: source
       link: https://github.com/dkoslicki/SEK
       text: Github
+    - type: preprint
+      link: https://arxiv.org/abs/1407.0387
+      text: Preprint
 
 
 - id: 10.1093/bioinformatics/btx798
@@ -101,7 +107,9 @@
     - type: source
       link: https://github.com/megrawlab/IndeCut
       text: Github
-
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/156836v1.full
+      text: Preprint
 
 
 
