@@ -1,0 +1,45 @@
+# Type: type1 -> Algorithm Development or Mathematical Theory; type2 -> Reasoning Over Large Knowledge Graphs; type3 -> Metagenomics Research
+- type: type1
+  title: Research Title1
+  people: Chunyu Ma, Shaopeng Liu
+  desc: This is reserach description
+
+- type: type1
+  title: Research Title2
+  people: Chunyu Ma, Shaopeng Liu
+  desc: This is reserach description
+
+- type: type1
+  title: Research Title3
+  people: Chunyu Ma, Shaopeng Liu
+  desc: This is reserach description
+
+- type: type2
+  title: Research Title1
+  people: Chunyu Ma
+  desc: This is reserach description
+
+- type: type2
+  title: Research Title2
+  people: Chunyu Ma
+  desc: This is reserach description
+
+- type: type2
+  title: Research Title3
+  people: Chunyu Ma
+  desc: This is reserach description
+
+- type: type3
+  title: Research Title1
+  people: Shaopeng Liu
+  desc: This is reserach description
+
+- type: type3
+  title: Research Title2
+  people: Shaopeng Liu
+  desc: This is reserach description
+
+- type: type3
+  title: Research Title3
+  people: Shaopeng Liu
+  desc: This is reserach description
