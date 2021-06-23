@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.main_content {
+  padding-top: 169px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));

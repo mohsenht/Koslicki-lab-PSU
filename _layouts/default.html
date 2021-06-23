@@ -3,7 +3,9 @@
   <body>
     {% include header.html %}
     <main>
+      <div id='content'>
       {% include content.html content=content %}
+      </div>>
     </main>
     {% include footer.html %}
 
@@ -12,13 +14,16 @@
       window.onscroll = function() {myFunction()};
       
       var header = document.getElementById("StickyHeader");
+      var content = document.getElementById("content");
       var sticky = header.offsetTop;
       
       function myFunction() {
         if (window.pageYOffset > sticky) {
           header.classList.add("sticky");
+          content.classList.add("main_content");
         } else {
           header.classList.remove("sticky");
+          content.classList.remove("main_content");
         }
       }
     </script>
