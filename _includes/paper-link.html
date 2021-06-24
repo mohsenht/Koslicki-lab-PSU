@@ -55,6 +55,13 @@
 {%- assign text = include.text | default: "Website" -%}
 {%- endif -%}
 
+{%- if include.type == "r" -%}
+{%- assign icon = "fab fa-r-project" -%}
+{%- assign text = include.text | default: "Website" -%}
+{%- endif -%}
+
+
+
 {%- comment -%}
 To add more options for icons, see:
 https://fontawesome.com/icons?d=gallery&q=icon&m=free

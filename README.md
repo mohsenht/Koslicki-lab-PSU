@@ -5,12 +5,7 @@
 <h2><font color="red">To be discussed </font></h2> 
 
 - [ ] Add your introduction with an image (check below for the method)
-- [ ] Header sections to be kept / added / deleted
-- [ ] Change "Software" name
-- [ ] Contents to add?
-- [ ] Determine where to put news
-- [ ] Whether we should preserve the opening animation
-
+- [ ] improve the outlook 
 
 
 <h2><font color="blue">Documentation </font></h2> 
@@ -22,6 +17,7 @@ Contents:
    1. [update your personal file](#personal)
    2. [add a publication](#pub)
    3. [local preview of the lab page](#local)
+   4. [navigation of editable files](#edit)
 3. [Structure of the page](#structure)
 4. [Some cool tricks](#trick)
    1. [github action: workflow](#workflow)
@@ -102,6 +98,25 @@ bundle exec jekyll serve
 
 
 
+###### 4. navigation of editble files <a  name="edit"></a>
+
+This is a guideline for the files that are corresponding to each specific part of the website.
+
+| Section            | file                      | note                                             |
+| ------------------ | ------------------------- | ------------------------------------------------ |
+| Header row         | _includes/header.html     |                                                  |
+| Research Page       | _data/research.yml        |                                                  |
+| Publications Page  | _data/research-input.yml  | "research-output.yml" is automatically generated |
+| Software Page      | _data/resources.yml       |                                                  |
+| Team Page          | _members/                 | add markdown file inside the folder              |
+| Media Page         | _data/resources.yml       |                                                  |
+| Opportunities Page | oppurtunities/index.md    | no extra source file                             |
+| Icon setting       | _includes/paper-link.html |                                                  |
+
+
+
+
+
 
 ### Structure of the page <a  name="structure"></a>
 
@@ -109,7 +124,7 @@ bundle exec jekyll serve
 - Publication: list of papers
 - Software: list of developed softwares, useful links, other lab-related resources
 - Team: members
-- Media: news?
+- Media: teaching, outreach, news
 - Opportunity: openings and fundings
 
 

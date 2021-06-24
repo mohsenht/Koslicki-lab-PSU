@@ -8,10 +8,11 @@
 # type:
 # An arbitrary type that the resource list component can filter by.
 # current setting (this is arbitrary)
-# software: software section
-# lab: lab infor section
-# more: useful links section
-# legacy: news section
+# software: software section in "Software"
+# more: useful links section in "Software"
+# news: news section in "Media"
+# teach: teaching section in "Media"
+# outreach: outreach section in "Media"
 
 
 # image:
@@ -36,7 +37,10 @@
 #  repo: Mangul-Lab-USC/telescope
 
 
-###### RTX
+
+
+######################################## Software: software
+### RTX
 - title: "RTX: biomedial reasoning tool"
   type: software
   image: https://ascpt.onlinelibrary.wiley.com/cms/asset/ee27ed39-5572-44c6-b514-52f300be17a3/cts12591-fig-0002-m.jpg
@@ -50,7 +54,8 @@
       link: https://arax.ncats.io/
       text: UI
 
-###### CMash
+
+### CMash
 - title: "CMash: multi-resolution containment MinHash"
   type: software
   image: images/software/cmash_image.png
@@ -64,15 +69,102 @@
       link: https://anaconda.org/bioconda/cmash
       text: Conda
 
-###### CMPSC 360
+
+### PressPurt
+- title: "PressPurt: network interactions (edges) identifier"
+  type: software
+  image: images/software/presspurt.png
+  link: https://github.com/dkoslicki/PressPurt
+  description: "PressPurt is a computational package for identifying the interactions (edges) within a network whose strengths (edge weights) must be estimated most accurately in order to produce qualitatively robust predictions of the network's response to press perturbations."
+  extra-links:
+    - type: source
+      link: https://github.com/dkoslicki/PressPurt
+      text: Github
+    - type: r
+      link: https://rdrr.io/cran/PressPurt/
+      text: R-project
+
+
+### mutation-rate-ci-calculator
+- title: "mutation rate CI calculator"
+  type: software
+  image: images/software/mutation_rate.png
+  link: https://github.com/KoslickiLab/mutation-rate-ci-calculator
+  description: "This software calculates a confidence interval for the mutation rate from a set of observed containment indices under a simple nucleotide mutation process."
+  extra-links:
+    - type: source
+      link: https://github.com/KoslickiLab/mutation-rate-ci-calculator
+      text: Github
+
+
+### EMDUnifrac
+- title: "EMDUnifrac: linear computation of Unifrac distance"
+  type: software
+  image: images/software/unifrac.png
+  link: https://github.com/dkoslicki/EMDUnifrac
+  description: "EMDUnifrac is a computational method that utilizes the Earth Mover's distance to compute the Unifrac distance and also returns information about which organisms are differentially abundant."
+  extra-links:
+    - type: source
+      link: https://github.com/dkoslicki/EMDUnifrac
+      text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/087171v2
+      text: Preprint
+
+
+### MetaPalette
+- title: "MetaPalette: k-mer based bacterial community reconstruction technique"
+  type: software
+  image: https://journals.asm.org/cms/10.1128/mSystems.00020-16/asset/90be520d-081c-4477-8f0c-17bc2ac28513/assets/graphic/sys0031620250001.jpeg
+  link: https://github.com/dkoslicki/MetaPalette
+  description: "MetaPalette is a k-mer based bacterial community reconstruction technique that utilizes sparsity promoting ideas from the field of compressed sensing to reconstruct the composition of a bacterial community. This method allows for strain-level abundance estimation, and can quantify the evolutionary distance between organisms in the sample and in the training database (thereby allowing for successful classification even with incomplete training data)."
+  extra-links:
+    - type: source
+      link: https://github.com/dkoslicki/MetaPalette
+      text: Github
+    - type: preprint
+      link: https://arxiv.org/abs/1602.05328
+      text: Preprint
+  
+
+### Quikr
+- title: "Quikr: rapid reconstruction of bacterial communities via compressive sensing"
+  type: software
+  image: ""
+  link: https://github.com/dkoslicki/Quikr
+  description: "Quikr is a QUadratic, Iterative, K-mer based Reconstruction technique that utilizes sparsity promoting ideas from the field of compressed sensing to reconstruct the composition of a bacterial community (when the input data is a FASTA file of 16S rRNA reads). This extremely fast method comes with a several databases that can be custom trained. Typically reconstruction is accurate down to the genus level."
+  extra-links:
+    - type: source
+      link: https://github.com/dkoslicki/Quikr
+      text: Github
+
+
+
+
+
+######################################## Useful link: more
+
+
+
+
+
+######################################## Teaching: teach
+### CMPSC 360
 - title: "CMPSC360: Discrete Mathematics"
-  type: lab
+  type: teach
   image: images/software/cmpsc360.png
   link: https://www.youtube.com/playlist?list=PLEdp7JQiSiMwOfRsetEjbQFCCR0q7EtQs
   description: lecture of CMPSC360 at PSU made by Dr. Koslicki
 
 
 
+
+
+######################################## News: news
+
+
+
+######################################## Outreach: outreach
 
 
 

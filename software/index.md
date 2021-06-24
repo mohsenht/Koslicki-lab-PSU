@@ -26,21 +26,7 @@ This page includes our open-sourced softwares, lab information, and some useful 
 
 
 
-## Check our lab story!
-
-{% capture html %}
-{% include resource-list.html type="lab" size="medium" %}
-{% endcapture %}
-
-{% include centerer.html html=html %}
-
-<!-- section break -->
-
-
-
-
-
-## Information we find useful!
+## Useful links
 
 {% capture html %}
 {% include resource-list.html type="more" size="small" %}
@@ -54,13 +40,3 @@ This page includes our open-sourced softwares, lab information, and some useful 
 
 
 
-
-
-
-## We’re in the news!
-
-{% capture html %}
-{% include resource-list.html type="legacy" size="small" %}
-{% endcapture %}
-
-{% include centerer.html html=html %}
