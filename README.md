@@ -108,6 +108,7 @@ This is a guideline for the files that are corresponding to each specific part o
 | Header row         | _includes/header.html     |                                                  |
 | Research Page       | _data/research.yml        |                                                  |
 | Publications Page  | _data/research-input.yml  | "research-output.yml" is automatically generated |
+| Paper summary Page | publications/paper_intro/ | add markdown file inside the folder              |
 | Software Page      | _data/resources.yml       |                                                  |
 | Team Page          | _members/                 | add markdown file inside the folder              |
 | Media Page         | _data/resources.yml       |                                                  |
