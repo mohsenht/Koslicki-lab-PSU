@@ -1,8 +1,7 @@
 ---
+layout: paper_summary
+title: "IndeCut evaluates performance of network motif discovery algorithms"
 ---
-
-<h1><font color="orange">IndeCut evaluates performance of network motif discovery algorithms  </font></h1>
-
 ### Summary
 A gene regulatory network is basically a representation of how genes interact with each other. In this work, we develop the only (to date) method to assess the accuracy of so called "motif discovery algorithms" that seek to find important sub-networks of a given gene regulatory network. We develop a provably correct mathematical approach (based on a variety of metrics that say how close two matrices are to each other) and use this to assess the performance of a variety of motif discovery algorithms.
 

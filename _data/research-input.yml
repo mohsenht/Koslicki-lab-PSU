@@ -53,8 +53,10 @@
 # the citation.
 
 
-# demo publication
 
+
+
+#################################### 2019
 ### OPAL
 - id: 10.1186/s13059-019-1646-y
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-019-1646-y/MediaObjects/13059_2019_1646_Fig2_HTML.png?as=webp
@@ -65,7 +67,7 @@
   descriptions: We introduce a framework to compare tools utilized to determine what microbes are present in a sample, and at what relative abundance. This will help computational biologists design better tools to analyze communities of microorganisms (which affect nearly everything in existence!).
   extra-links:
     - type: data
-      link: paper_intro/opal
+      link: paper_intro/2019_OPAL
       text: Highlights
     - type: source
       link: https://github.com/CAMI-challenge
@@ -75,6 +77,330 @@
       text: Preprint
 
 
+
+
+
+
+
+
+
+
+
+
+#################################### 2018
+### Toward A Universal Biomedical Data Translator
+- id: 10.1111/cts.12591
+  image: images/publication/2018_ncats.png
+  tags: 
+    - biomedical
+    - translational science
+  descriptions: The vision and high-level overview of the NIH National Center for Advancing Translational Science (NCATS) project entitled "Translator" (through which we have been funded). The goal of the project is essentially to build a biomedical "Siri": an automated platform for answering biomedical research questions that leverages repositories of publicly available information.
+  extra-links:
+    - type: data
+      link: paper_intro/2018_biomed_translator
+      text: Highlights
+    - type: source
+      link: https://github.com/RTXteam/RTX
+      text: Github
+    - type: ui
+      link: https://arax.ncats.io/
+      text: UI
+
+
+
+
+### The Biomedical Data Translator Program: Conception, Culture, and Community
+- id: 10.1111/cts.12592
+  image: images/publication/2018_Biomed_data_trans.png
+  tags:
+    - biomedical
+    - translational science
+  descriptions: A description of the NIH NCATS culture that emerged during the Translator project.
+  extra-links:
+    - type: data
+      link: paper_intro/2018_data_translator
+      text: Highlights
+
+
+
+
+
+### MiCoP: Microbial Community Proling method for detecting viral and fungal organisms in metagenomic samples
+- id: 0.1186/s12864-019-5699-9
+  image: images/publication/2018_MiCoP.png
+  tags: 
+    - microbial community
+    - metagenomics
+  descriptions: We show that read mapping, along with a probabilistic assignment of multi-mapped reads, outperforms other computational approaches to identify the presence and relative amount of viral and fungal organisms in a metagenomic sample of microorganismal DNA.
+  extra-links:
+    - type: data
+      link: paper_intro/2018_MiCoP
+      text: Highlights
+    - type: source
+      link: https://github.com/smangul1/MiCoP
+      text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/243188v1
+      text: Preprint
+
+
+
+
+### Transcriptome analysis in whole blood reveals increased microbial diversity in schizophrenia
+- id: 10.1038/s41398-018-0107-9
+  image: images/publication/2018_transcriptome.jpg
+  tags:
+    - microbial community
+    - de bruijn
+    - k-mer
+  descriptions: Along with collaborators at UCLA, we were able to detect a small, but significant amount of microbes in blood This is surprising since it's typically assumed that the immune system typically removes any microbial presence from human blood. I used a reference-free microbial community algorithm, called EMDeBruijn, to help corroborate the patterns we saw which included an increase in microbial diversity in schizophrenia patients. EMDeBruijn is a metric based on the Wasserstein metric (aka the Earth Mover's Distance) and a de Bruijn graph induced by the k-mers in a metagenomic DNA sample.
+  extra-links:
+    - type: data
+      link: paper_intro/2018_transcriptome_analysis
+      text: Highlights
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/057570v1
+      text: Preprint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################### 2017
+### IndeCut
+- id: 10.1093/bioinformatics/btx798
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bioinformatics/34/9/10.1093_bioinformatics_btx798/3/m_btx798f6.png?Expires=1625788161&Signature=iH9au6iC4JyWxiTiEcS-SzcFFTDAUlHK~ekYpD1384iyQgSQyt~d57ZSUUSLe-600k3KuYBaUeYFmbbDuKDds0ExwtV5czgrQzm0mYnGbPCQcsk~LTTW1dsAFThvntHY-LTrj3XP2GD8T~pOS3v3hxQOsH3oKwH9DNInjsxUjyfvW2Vjc9zc6Q~YBsCAcLSa4Q5nLKzr-WT-zpuwFLxiVezPW5-Gj41BMoiXjyhXV-IgZtmaDm7EhO~8CPPYpfAB0RzzPzr2WDLolfFkUT~2Iph2wV~gY5XxWpnzjxod7zR8J87CstnrzHJmasXq85UaIKSYkDw4uIydE-Rk~jOAwQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  tags:
+    - network
+    - motif
+  descriptions: A gene regulatory network is basically a representation of how genes interact with each other. In this work, we develop the only (to date) method to assess the accuracy of so called "motif discovery algorithms" that seek to find important sub-networks of a given gene regulatory network. We develop a provably correct mathematical approach (based on a variety of metrics that say how close two matrices are to each other) and use this to assess the performance of a variety of motif discovery algorithms.
+  extra-links:
+    - type: data
+      link: paper_intro/2017_IndeCut
+      text: Highlights
+    - type: source
+      link: https://github.com/megrawlab/IndeCut
+      text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/156836v1.full
+      text: Preprint
+
+
+
+
+### CAMI
+- id: 10.1038/nmeth.4458
+  image: images/publication/2017_CAMI.png
+  tags:
+    - metagenomics
+    - computational methods
+  descriptions: In a very reproducible fashion, we assess a wide variety of computational techniques in metagenomics, including assembly (putting together pieces of genomes, called contigs, from short reads), binning (figuring out where the contigs came from), and taxonomic profiling (determining which organisms are present in a sample and at what relative amount).
+  extra-links:
+    - type: data
+      link: paper_intro/2017_CAMI
+      text: Highlights
+    - type: source
+      link: https://github.com/CAMI-challenge
+      text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/099127v1
+      text: Preprint
+
+
+
+### EMDUnifrac
+- id: 10.1007/s00285-018-1235-9
+  image: images/publication/2017_EMDUnifrac.png
+  tags: 
+    - Unifrac distance
+  descriptions: Rapidly answers “why are these data sets different” by leveraging hierarchical/relatedness information. In short, we develop an algorithm to quickly compute the Unifrac distance by leveraging the earth mover's distance, prove its correctness, and derive time and space complexity characterizations.
+  extra-links:
+    - type: data
+      link: paper_intro/2017_EMDUnifrac
+      text: Highlights
+    - type: source
+      link: https://github.com/dkoslicki/EMDUnifrac
+      text: Github
+    - type: preprint
+      link: https://arxiv.org/abs/1611.04634
+      text: Preprint
+
+
+
+
+### Improving MH via CMH
+- id: 10.1016/j.amc.2019.02.018
+  image: images/publication/2017_improving_MH_1.png
+  tags: 
+    - MinHash
+    - Jaccard index
+    - containment index
+    - metagenomics
+  descriptions: This work improves upon the so called "min hash" technique (a "probabilistic data analysis" method) to develop a very fast and efficient way to estimate the similarity of two sets of objects (in terms of how much they overlap). The approach we present is orders of magnitude faster (and uses orders of magnitude less space) when two data sets under consideration are of very different size. The kinds of sets we consider are sets of sub-strings (called k-mers) of DNA sequences from communities of microorganisms.
+  extra-links:
+    - type: data
+      link: paper_intro/2017_improving_MH
+      text: Highlights
+    - type: source
+      link: https://github.com/dkoslicki/MinHashMetagenomics
+      text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/184150v1
+      text: Preprint
+
+
+
+
+
+
+
+
+
+
+
+
+#################################### 2016
+### MetaPalette
+- id: 10.1128/mSystems.00020-16
+  image: images/publication/2016_MetaPalette.png
+  tags: 
+    - metagenomic profiling
+  descriptions: We present a computational technique that answers the question "Which organisms are present in a given sample of of DNA from a microbial community, and at what relative amount" while simultaneously predicting the relatedness of novel (never-before seen organisms) in relation to known organisms. This relies on a mathematical technique referred to as sparsity-promoting optimization and relies on a technique similar to the Jaccard index.
+  extra-links:
+    - type: data
+      link: paper_intro/2016_MetaPalette
+      text: Highlights
+    - type: source
+      link: https://github.com/dkoslicki/MetaPalette
+      text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/039909v1
+      text: Preprint
+
+
+
+### Ref-free comparison of microbial community
+- id: 10.1145/2975167.2975174
+  image: images/publication/2016_ref_free_comparison.png
+  tags: 
+    - de Bruijn graph
+  descriptions: We present the idea of using the "earth mover's distance" (aka the first Wasserstein metric) to measure the distance between samples of DNA. This reduces to finding the most efficient way to transform one kind of graph (known as de Bruijn graphs) into another.
+  extra-links:
+    - type: data
+      link: paper_intro/2016_ref_free_comparison_of_microbial
+      text: Highlights
+    - type: source
+      link: https://github.com/dkoslicki/EMDeBruijn
+      text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/055020v1
+      text: Preprint
+
+
+
+
+### Exact probability of the indeterminacy of complex networks
+- id: 10.1007/s00285-017-1163-0
+  image: images/publication/2016_exact_prob_indeterminancy.png
+  tags: 
+    - network
+  descriptions: In a network of interacting quantities (such as a food web), we examine how qualitative and quantitative predictions change when a quantity (such as the abundance of an organism or a set of organisms) is increased. This is quantified in terms of which model parameters cause the largest change in predictions.
+  extra-links:
+    - type: data
+      link: paper_intro/2016_exact_prob_indeterminacy
+      text: Highlights
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/083089v1
+      text: Preprint
+
+
+
+
+### Substitution Markov chains and Martin boundaries
+- id: 10.1216/RMJ-2016-46-6-1963
+  image: images/publication/2016_MartinBoundaries.png
+  tags: 
+    - Markov chains
+    - Martin boundaries
+  descriptions: After introducing the notion of a random substitution Markov chain, we relate it to other notions of a "random substitution" and give a complete description of the Martin boundary for a few interesting examples.
+  extra-links:
+    - type: data
+      link: paper_intro/2016_subs_MC_Mb
+      text: Highlights
+    - type: preprint
+      link: https://arxiv.org/abs/1705.10830
+      text: Preprint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################### 2015
+### ARK
+- id: 10.1371/journal.pone.0140644
+  image: images/publication/2015_ARK2.png
+  tags: 
+    - k-mer
+    - metagenomic profiling
+  descriptions: We develop a pre-processing step that significantly improves k-mer based metagenomic profiling techniques.
+  extra-links:
+    - type: data
+      link: paper_intro/2015_ARK
+      text: Highlights
+    - type: source
+      link: https://github.com/dkoslicki/ARK
+      text: Github
+    - type: preprint
+      link: https://koslicki.math.oregonstate.edu/sites/koslicki.math.oregonstate.edu/files/ARKCombined.pdf
+      text: Preprint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################### 2014
 ### SEK
 - id: 10.1093/bioinformatics/btu320
   image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bioinformatics/30/17/10.1093_bioinformatics_btu320/2/m_btu320f1p.jpeg?Expires=1625782229&Signature=VEAX~XRSwzgpqPJBRI2TeAVYxsrbs~8TPqVahAi0eMNNFIKpTxiffMRwFJq1hfAs6GlXuXEJoQfw7hI1noFlXZzd6W0EhREXUDBL7JAOLw4Ea6uSaM6Ps5-ImY16auSJat9VDTiEHYH0mMXIoS22Oze-3393O9zlY~rLAtW-EHKVXvb-MmIg443m~3uuSON9zwbnFAAqGBjDA~dkKIZaQB~ThrBmDV9NW36DrdstYwDJELoSoDiN2~oaZXOyx1gdydvUnZBdenRSUapJ6U0C5B5LsFdprdkZ5uBogDKRAgqvx~1yP0MUKfcqMqipaKMBwgApQHDLb4LLAy5uu6~8Vw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
@@ -84,7 +410,7 @@
   descriptions: In this paper, we improve both the accuracy and speed of the Quikr approach to classifying a given set of metagenomic DNA sequences (16S rRNA). This is accomplished by increasing the number of "feature vectors" we use for each training genome, and by modifying the Lawson-Hanson algorithm for non-negative least squares.
   extra-links:
     - type: data
-      link: paper_intro/sek
+      link: paper_intro/2014_SEK
       text: Highlights
     - type: source
       link: https://github.com/dkoslicki/SEK
@@ -94,23 +420,145 @@
       text: Preprint
 
 
-- id: 10.1093/bioinformatics/btx798
-  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bioinformatics/34/9/10.1093_bioinformatics_btx798/3/m_btx798f6.png?Expires=1625788161&Signature=iH9au6iC4JyWxiTiEcS-SzcFFTDAUlHK~ekYpD1384iyQgSQyt~d57ZSUUSLe-600k3KuYBaUeYFmbbDuKDds0ExwtV5czgrQzm0mYnGbPCQcsk~LTTW1dsAFThvntHY-LTrj3XP2GD8T~pOS3v3hxQOsH3oKwH9DNInjsxUjyfvW2Vjc9zc6Q~YBsCAcLSa4Q5nLKzr-WT-zpuwFLxiVezPW5-Gj41BMoiXjyhXV-IgZtmaDm7EhO~8CPPYpfAB0RzzPzr2WDLolfFkUT~2Iph2wV~gY5XxWpnzjxod7zR8J87CstnrzHJmasXq85UaIKSYkDw4uIydE-Rk~jOAwQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+
+### Entropy-based data mining
+- id: 10.1007/978-3-662-43968-5_12
+  image: images/publication/2014_entropy_data_mining.png
   tags:
-    - network
-    - motif
-  descriptions: A gene regulatory network is basically a representation of how genes interact with each other. In this work, we develop the only (to date) method to assess the accuracy of so called "motif discovery algorithms" that seek to find important sub-networks of a given gene regulatory network. We develop a provably correct mathematical approach (based on a variety of metrics that say how close two matrices are to each other) and use this to assess the performance of a variety of motif discovery algorithms.
-  extra-links:
+    - entropy
+    - data mining
+  descriptions: We review a variety of entropy/randomness-based techniques that are useful in a variety of data mining applications.
+  extra-links: 
     - type: data
-      link: paper_intro/indecut
+      link: paper_intro/2014_entropy_data_mining
       text: Highlights
-    - type: source
-      link: https://github.com/megrawlab/IndeCut
-      text: Github
     - type: preprint
-      link: https://www.biorxiv.org/content/10.1101/156836v1.full
+      link: https://koslicki.math.oregonstate.edu/sites/koslicki.math.oregonstate.edu/files/EntropyBasedDataMining.pdf
       text: Preprint
 
+
+
+### Coding seq density estimation
+- id: 10.1007/s00285-014-0754-2
+  image: images/publication/2014_coding_sequence_density.png
+  tags: 
+    - topological entropy
+  descriptions: We demonstrate that a concept of "weighted information content" (known as topological pressure, from the ergodic theory literature) can be used to facilitate the analysis of genomic data (in particular, find areas of a genome that have many genes in them). This is a conceptual extension to topological entropy approach presented earlier.
+  extra-links: 
+    - type: data
+      link: paper_intro/2014_coding_seq_density_estimation
+      text: Highlights
+    - type: source
+      link: https://sourceforge.net/projects/topologicalpres/
+      text: Sourceforce
+    - type: preprint
+      link: https://arxiv.org/abs/1109.5999
+      text: Preprint
+
+
+
+### Sparse recovery 
+- id: 10.1109/LSP.2014.2307064
+  image: images/publication/2014_sparse_recovery.png
+  tags: ""
+  descriptions: We prove that nonnegative least squares (typically prone to over-fitting) can be slightly modified to return sparse results.
+  extra-links:
+    - type: data
+      link: paper_intro/2014_sparse_recovery
+      text: Highlights
+    - type: source
+      link: http://math.oregonstate.edu/~koslickd/SRasNNLS_reproducibles.zip
+      text: Reproducible
+    - type: preprint
+      link: https://koslicki.math.oregonstate.edu/sites/koslicki.math.oregonstate.edu/files/SRasNNLS_final.pdf
+      text: Preprint
+
+
+
+
+### WGSQuikr
+- id: 10.1371/journal.pone.0091784
+  image: images/publication/2014_WGSQuikr2.png
+  tags: 
+    - metagenomic classfication
+    - k-mer
+  descriptions: Extending the results of Quikr to whole genome shotgun metagenomic samples, we develop a method to automatically select a parameter that balances sparsity (how succinct the result is) with accuracy.
+  extra-links:
+    - type: data
+      link: paper_intro/2014_WGSQuikr
+      text: Highlights
+    - type: source
+      link: https://sourceforge.net/projects/wgsquikr/
+      text: Sourceforce
+    - type: preprint
+      link: https://koslicki.math.oregonstate.edu/sites/koslicki.math.oregonstate.edu/files/WGSQuikr_final.pdf
+      text: Preprint
+
+
+
+
+
+
+
+
+
+
+
+
+#################################### 2013
+### Quikr
+- id: 10.1093/bioinformatics/btt336
+  image: images/publication/2013_quikr2.png
+  tags: 
+    - "k-mer"
+    - compressed sensing 
+    - metagenomic classification
+  descriptions: We introduce an extremely fast, light-weight, "big data" algorithm to quickly answer the question of "which bacteria are present?" in a given sample of DNA. The method is based on the theory of compressed sensing and aims to find the simplest explanation for the data in terms of known information.
+  extra-links:
+    - type: data
+      link: paper_intro/2013_Quikr
+      text: Highlights
+    - type: source
+      link: https://github.com/dkoslicki/Quikr
+      text: Github
+    - type: source
+      link: https://sourceforge.net/projects/quikr/
+      text: Sourceforce
+    - type: preprint
+      link: https://koslicki.math.oregonstate.edu/sites/koslicki.math.oregonstate.edu/files/QuikrRevisionPrePrint.pdf
+      text: Preprint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################### 2011
+### Topological entropy of DNA sequences
+- id: 10.1093/bioinformatics/btr077
+  image: images/publication/2011_topological_entropy.png
+  tags: 
+    - "applied math"
+    - entropy
+  descriptions: I define a new notion of "randomness" (called topological pressure) suitable for use on sequences of symbols (words) of finite length. I show that this can be used to distinguish between biologically interesting sequences in the human genome.
+  extra-links:
+    - type: data
+      link: paper_intro/2011_topological_entropy
+      text: Highlights
+    - type: source
+      link: http://www.math.psu.edu/koslicki/entropy.nb
+      text: Implementation
+    - type: preprint
+      link: https://arxiv.org/abs/1101.4636
+      text: Preprint
 
 
 
