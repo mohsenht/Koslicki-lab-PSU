@@ -64,7 +64,8 @@
     - metagenome 
     - taxonomic profile
   repo: CAMI-challenge/OPAL
-  descriptions: We introduce a framework to compare tools utilized to determine what microbes are present in a sample, and at what relative abundance. This will help computational biologists design better tools to analyze communities of microorganisms (which affect nearly everything in existence!).
+  descriptions: >
+    We introduce a framework to compare tools utilized to determine what microbes are present in a sample, and at what relative abundance. This will help computational biologists design better tools to analyze communities of microorganisms (which affect nearly everything in existence!).
   extra-links:
     - type: data
       link: paper_intro/2019_OPAL
@@ -94,7 +95,8 @@
   tags: 
     - biomedical
     - translational science
-  descriptions: The vision and high-level overview of the NIH National Center for Advancing Translational Science (NCATS) project entitled "Translator" (through which we have been funded). The goal of the project is essentially to build a biomedical "Siri": an automated platform for answering biomedical research questions that leverages repositories of publicly available information.
+  descriptions: >
+    The vision and high-level overview of the NIH National Center for Advancing Translational Science (NCATS) project entitled "Translator" (through which we have been funded). The goal of the project is essentially to build a biomedical "Siri": an automated platform for answering biomedical research questions that leverages repositories of publicly available information.
   extra-links:
     - type: data
       link: paper_intro/2018_biomed_translator
@@ -115,7 +117,8 @@
   tags:
     - biomedical
     - translational science
-  descriptions: A description of the NIH NCATS culture that emerged during the Translator project.
+  descriptions: >
+    A description of the NIH NCATS culture that emerged during the Translator project.
   extra-links:
     - type: data
       link: paper_intro/2018_data_translator
@@ -125,13 +128,14 @@
 
 
 
-### MiCoP: Microbial Community Proling method for detecting viral and fungal organisms in metagenomic samples
-- id: 0.1186/s12864-019-5699-9
+### MiCoP: Microbial Community Pro ling method for detecting viral and fungal organisms in metagenomic samples
+- id: 10.1186/s12864-019-5699-9
   image: images/publication/2018_MiCoP.png
   tags: 
     - microbial community
     - metagenomics
-  descriptions: We show that read mapping, along with a probabilistic assignment of multi-mapped reads, outperforms other computational approaches to identify the presence and relative amount of viral and fungal organisms in a metagenomic sample of microorganismal DNA.
+  descriptions: >
+    We show that read mapping, along with a probabilistic assignment of multi-mapped reads, outperforms other computational approaches to identify the presence and relative amount of viral and fungal organisms in a metagenomic sample of microorganismal DNA.
   extra-links:
     - type: data
       link: paper_intro/2018_MiCoP
@@ -153,7 +157,8 @@
     - microbial community
     - de bruijn
     - k-mer
-  descriptions: Along with collaborators at UCLA, we were able to detect a small, but significant amount of microbes in blood This is surprising since it's typically assumed that the immune system typically removes any microbial presence from human blood. I used a reference-free microbial community algorithm, called EMDeBruijn, to help corroborate the patterns we saw which included an increase in microbial diversity in schizophrenia patients. EMDeBruijn is a metric based on the Wasserstein metric (aka the Earth Mover's Distance) and a de Bruijn graph induced by the k-mers in a metagenomic DNA sample.
+  descriptions: >
+    Along with collaborators at UCLA, we were able to detect a small, but significant amount of microbes in blood This is surprising since it's typically assumed that the immune system typically removes any microbial presence from human blood. I used a reference-free microbial community algorithm, called EMDeBruijn, to help corroborate the patterns we saw which included an increase in microbial diversity in schizophrenia patients. EMDeBruijn is a metric based on the Wasserstein metric (aka the Earth Mover's Distance) and a de Bruijn graph induced by the k-mers in a metagenomic DNA sample.
   extra-links:
     - type: data
       link: paper_intro/2018_transcriptome_analysis
@@ -185,7 +190,8 @@
   tags:
     - network
     - motif
-  descriptions: A gene regulatory network is basically a representation of how genes interact with each other. In this work, we develop the only (to date) method to assess the accuracy of so called "motif discovery algorithms" that seek to find important sub-networks of a given gene regulatory network. We develop a provably correct mathematical approach (based on a variety of metrics that say how close two matrices are to each other) and use this to assess the performance of a variety of motif discovery algorithms.
+  descriptions: >
+    A gene regulatory network is basically a representation of how genes interact with each other. In this work, we develop the only (to date) method to assess the accuracy of so called "motif discovery algorithms" that seek to find important sub-networks of a given gene regulatory network. We develop a provably correct mathematical approach (based on a variety of metrics that say how close two matrices are to each other) and use this to assess the performance of a variety of motif discovery algorithms.
   extra-links:
     - type: data
       link: paper_intro/2017_IndeCut
@@ -206,7 +212,8 @@
   tags:
     - metagenomics
     - computational methods
-  descriptions: In a very reproducible fashion, we assess a wide variety of computational techniques in metagenomics, including assembly (putting together pieces of genomes, called contigs, from short reads), binning (figuring out where the contigs came from), and taxonomic profiling (determining which organisms are present in a sample and at what relative amount).
+  descriptions: >
+    In a very reproducible fashion, we assess a wide variety of computational techniques in metagenomics, including assembly (putting together pieces of genomes, called contigs, from short reads), binning (figuring out where the contigs came from), and taxonomic profiling (determining which organisms are present in a sample and at what relative amount).
   extra-links:
     - type: data
       link: paper_intro/2017_CAMI
@@ -225,7 +232,8 @@
   image: images/publication/2017_EMDUnifrac.png
   tags: 
     - Unifrac distance
-  descriptions: Rapidly answers “why are these data sets different” by leveraging hierarchical/relatedness information. In short, we develop an algorithm to quickly compute the Unifrac distance by leveraging the earth mover's distance, prove its correctness, and derive time and space complexity characterizations.
+  descriptions: >
+    Rapidly answers “why are these data sets different” by leveraging hierarchical/relatedness information. In short, we develop an algorithm to quickly compute the Unifrac distance by leveraging the earth mover's distance, prove its correctness, and derive time and space complexity characterizations.
   extra-links:
     - type: data
       link: paper_intro/2017_EMDUnifrac
@@ -248,7 +256,8 @@
     - Jaccard index
     - containment index
     - metagenomics
-  descriptions: This work improves upon the so called "min hash" technique (a "probabilistic data analysis" method) to develop a very fast and efficient way to estimate the similarity of two sets of objects (in terms of how much they overlap). The approach we present is orders of magnitude faster (and uses orders of magnitude less space) when two data sets under consideration are of very different size. The kinds of sets we consider are sets of sub-strings (called k-mers) of DNA sequences from communities of microorganisms.
+  descriptions: >
+    This work improves upon the so called "min hash" technique (a "probabilistic data analysis" method) to develop a very fast and efficient way to estimate the similarity of two sets of objects (in terms of how much they overlap). The approach we present is orders of magnitude faster (and uses orders of magnitude less space) when two data sets under consideration are of very different size. The kinds of sets we consider are sets of sub-strings (called k-mers) of DNA sequences from communities of microorganisms.
   extra-links:
     - type: data
       link: paper_intro/2017_improving_MH
@@ -277,7 +286,8 @@
   image: images/publication/2016_MetaPalette.png
   tags: 
     - metagenomic profiling
-  descriptions: We present a computational technique that answers the question "Which organisms are present in a given sample of of DNA from a microbial community, and at what relative amount" while simultaneously predicting the relatedness of novel (never-before seen organisms) in relation to known organisms. This relies on a mathematical technique referred to as sparsity-promoting optimization and relies on a technique similar to the Jaccard index.
+  descriptions: >
+    We present a computational technique that answers the question "Which organisms are present in a given sample of of DNA from a microbial community, and at what relative amount" while simultaneously predicting the relatedness of novel (never-before seen organisms) in relation to known organisms. This relies on a mathematical technique referred to as sparsity-promoting optimization and relies on a technique similar to the Jaccard index.
   extra-links:
     - type: data
       link: paper_intro/2016_MetaPalette
@@ -296,7 +306,8 @@
   image: images/publication/2016_ref_free_comparison.png
   tags: 
     - de Bruijn graph
-  descriptions: We present the idea of using the "earth mover's distance" (aka the first Wasserstein metric) to measure the distance between samples of DNA. This reduces to finding the most efficient way to transform one kind of graph (known as de Bruijn graphs) into another.
+  descriptions: >
+    We present the idea of using the "earth mover's distance" (aka the first Wasserstein metric) to measure the distance between samples of DNA. This reduces to finding the most efficient way to transform one kind of graph (known as de Bruijn graphs) into another.
   extra-links:
     - type: data
       link: paper_intro/2016_ref_free_comparison_of_microbial
@@ -316,7 +327,8 @@
   image: images/publication/2016_exact_prob_indeterminancy.png
   tags: 
     - network
-  descriptions: In a network of interacting quantities (such as a food web), we examine how qualitative and quantitative predictions change when a quantity (such as the abundance of an organism or a set of organisms) is increased. This is quantified in terms of which model parameters cause the largest change in predictions.
+  descriptions: >
+    In a network of interacting quantities (such as a food web), we examine how qualitative and quantitative predictions change when a quantity (such as the abundance of an organism or a set of organisms) is increased. This is quantified in terms of which model parameters cause the largest change in predictions.
   extra-links:
     - type: data
       link: paper_intro/2016_exact_prob_indeterminacy
@@ -334,7 +346,8 @@
   tags: 
     - Markov chains
     - Martin boundaries
-  descriptions: After introducing the notion of a random substitution Markov chain, we relate it to other notions of a "random substitution" and give a complete description of the Martin boundary for a few interesting examples.
+  descriptions: >
+    After introducing the notion of a random substitution Markov chain, we relate it to other notions of a "random substitution" and give a complete description of the Martin boundary for a few interesting examples.
   extra-links:
     - type: data
       link: paper_intro/2016_subs_MC_Mb
@@ -369,7 +382,8 @@
   tags: 
     - k-mer
     - metagenomic profiling
-  descriptions: We develop a pre-processing step that significantly improves k-mer based metagenomic profiling techniques.
+  descriptions: >
+    We develop a pre-processing step that significantly improves k-mer based metagenomic profiling techniques.
   extra-links:
     - type: data
       link: paper_intro/2015_ARK
@@ -407,7 +421,8 @@
   tags:
     - k-mer
     - metagenome
-  descriptions: In this paper, we improve both the accuracy and speed of the Quikr approach to classifying a given set of metagenomic DNA sequences (16S rRNA). This is accomplished by increasing the number of "feature vectors" we use for each training genome, and by modifying the Lawson-Hanson algorithm for non-negative least squares.
+  descriptions: >
+    In this paper, we improve both the accuracy and speed of the Quikr approach to classifying a given set of metagenomic DNA sequences (16S rRNA). This is accomplished by increasing the number of "feature vectors" we use for each training genome, and by modifying the Lawson-Hanson algorithm for non-negative least squares.
   extra-links:
     - type: data
       link: paper_intro/2014_SEK
@@ -427,7 +442,8 @@
   tags:
     - entropy
     - data mining
-  descriptions: We review a variety of entropy/randomness-based techniques that are useful in a variety of data mining applications.
+  descriptions: >
+    We review a variety of entropy/randomness-based techniques that are useful in a variety of data mining applications.
   extra-links: 
     - type: data
       link: paper_intro/2014_entropy_data_mining
@@ -443,7 +459,8 @@
   image: images/publication/2014_coding_sequence_density.png
   tags: 
     - topological entropy
-  descriptions: We demonstrate that a concept of "weighted information content" (known as topological pressure, from the ergodic theory literature) can be used to facilitate the analysis of genomic data (in particular, find areas of a genome that have many genes in them). This is a conceptual extension to topological entropy approach presented earlier.
+  descriptions: >
+    We demonstrate that a concept of "weighted information content" (known as topological pressure, from the ergodic theory literature) can be used to facilitate the analysis of genomic data (in particular, find areas of a genome that have many genes in them). This is a conceptual extension to topological entropy approach presented earlier.
   extra-links: 
     - type: data
       link: paper_intro/2014_coding_seq_density_estimation
@@ -461,7 +478,8 @@
 - id: 10.1109/LSP.2014.2307064
   image: images/publication/2014_sparse_recovery.png
   tags: ""
-  descriptions: We prove that nonnegative least squares (typically prone to over-fitting) can be slightly modified to return sparse results.
+  descriptions: >
+    We prove that nonnegative least squares (typically prone to over-fitting) can be slightly modified to return sparse results.
   extra-links:
     - type: data
       link: paper_intro/2014_sparse_recovery
@@ -482,7 +500,8 @@
   tags: 
     - metagenomic classfication
     - k-mer
-  descriptions: Extending the results of Quikr to whole genome shotgun metagenomic samples, we develop a method to automatically select a parameter that balances sparsity (how succinct the result is) with accuracy.
+  descriptions: >
+    Extending the results of Quikr to whole genome shotgun metagenomic samples, we develop a method to automatically select a parameter that balances sparsity (how succinct the result is) with accuracy.
   extra-links:
     - type: data
       link: paper_intro/2014_WGSQuikr
@@ -513,7 +532,8 @@
     - "k-mer"
     - compressed sensing 
     - metagenomic classification
-  descriptions: We introduce an extremely fast, light-weight, "big data" algorithm to quickly answer the question of "which bacteria are present?" in a given sample of DNA. The method is based on the theory of compressed sensing and aims to find the simplest explanation for the data in terms of known information.
+  descriptions: >
+    We introduce an extremely fast, light-weight, "big data" algorithm to quickly answer the question of "which bacteria are present?" in a given sample of DNA. The method is based on the theory of compressed sensing and aims to find the simplest explanation for the data in terms of known information.
   extra-links:
     - type: data
       link: paper_intro/2013_Quikr
@@ -548,7 +568,8 @@
   tags: 
     - "applied math"
     - entropy
-  descriptions: I define a new notion of "randomness" (called topological pressure) suitable for use on sequences of symbols (words) of finite length. I show that this can be used to distinguish between biologically interesting sequences in the human genome.
+  descriptions: >
+    I define a new notion of "randomness" (called topological pressure) suitable for use on sequences of symbols (words) of finite length. I show that this can be used to distinguish between biologically interesting sequences in the human genome.
   extra-links:
     - type: data
       link: paper_intro/2011_topological_entropy

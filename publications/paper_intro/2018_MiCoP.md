@@ -1,6 +1,6 @@
 ---
 layout: paper_summary
-title: "MiCoP: Microbial Community Proling method for detecting viral and fungal organisms in metagenomic samples"
+title: "MiCoP: Microbial Community Pro ling method for detecting viral and fungal organisms in metagenomic samples"
 ---
 
 ### Summary
