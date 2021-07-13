@@ -4,10 +4,11 @@ title: Mahmudur Rahman Hera # fill out your name
 # name variations to include when generating list of this person's papers
 search:
   - Mahmudur
+  - Rahman
   - Hera
 
 # if image not specified, default will automatically be used
-image: images/team/mahmudur-rahman.jpg ## the path of your profile photo, please put it under 'images/team' and name it as firstname-lastname.jpg
+image: images/team/Mahmudur-Rahman.jpg ## the path of your profile photo, please put it under 'images/team' and name it as firstname-lastname.jpg
 
 # role must be included or person won't appear on team page
 role: phd ## options: pi-Principal Investigator, postdoc-Postdoctoral Researcher, phd-PhD Student, masters-Master's Student, undergrad-Undergraduate Student, highschool-High School Student, programmer-Software Engineer
