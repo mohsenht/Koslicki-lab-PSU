@@ -1,12 +1,13 @@
 ---
-title: Shaopeng Liu # fill out your name
+title: Mahmudur Rahman Hera # fill out your name
 
 # name variations to include when generating list of this person's papers
 search:
-  - Shaopeng
+  - Mahmudur
+  - Hera
 
 # if image not specified, default will automatically be used
-image: images/team/shaopeng-liu.png ## the path of your profile photo, please put it under 'images/team' and name it as firstname-lastname.jpg
+image: images/team/mahmudur-rahman.jpg ## the path of your profile photo, please put it under 'images/team' and name it as firstname-lastname.jpg
 
 # role must be included or person won't appear on team page
 role: phd ## options: pi-Principal Investigator, postdoc-Postdoctoral Researcher, phd-PhD Student, masters-Master's Student, undergrad-Undergraduate Student, highschool-High School Student, programmer-Software Engineer
@@ -15,10 +16,10 @@ role: phd ## options: pi-Principal Investigator, postdoc-Postdoctoral Researcher
 # group: alum ## comment it if you're not alumni
 
 # contact info and social media links
-email: sml6467@psu.edu ## fill out your email
-website: https://shaopengliu1.github.io/  ## fill out the address of your pesonal website if you have or your linkedin profile if you like
-github: ShaopengLiu1 ## your github account if you like to put it on your profile
-google: y6Gt7roAAAAJ  ## your google scholar account if you like to put it on your profile
+email: mbr5797@psu.edu ## fill out your email
+website: https://sites.google.com/view/mahmudhera/  ## fill out the address of your pesonal website if you have or your linkedin profile if you like
+github: mahmudhera ## your github account if you like to put it on your profile
+google: xgua28AAAAJ ## your google scholar account if you like to put it on your profile
 # twitter: ## your twitter account if you like to put it on your profile
 # instagram: ## your instagram account if you like to put it on your profile
 # youtube: ## your youtube account if you like to put it on your profile
@@ -26,9 +27,9 @@ google: y6Gt7roAAAAJ  ## your google scholar account if you like to put it on yo
 ---
 [comment]: Fill out your description below 
 
-I'm a Ph.D. student in the Binformatics and Genomics (BG) program at Penn State University (PSU) and I joined the Koslicki Lab in May 2020. My major interest is to develop and apply novel computational methodsa and machine learning strategies on  multi-omics data for better biomedical applications (e.g. precision medicine, AI health, and translational research). Currently, I'm working on developing computational methods for metagenomic analysis as well as exploring translational research based on large biomedical knowledge graphs.  
+I am a PhD student at Pennsylvania State University, USA. I am currently pursuing my PhD in Computer Science from the EECS School of Penn State. I am doing this training under Dr. David Koslicki in KoslickiLab. Our lab focuses on solving problems in biology using computational resources. In particular, KoslickiLab works in solving metagenomic problems.
 
-Prior to my Ph.D. study at PSU, I've been working as a bioinformatician in Washington University in St. Louis (WUSTL) for 18 months. I received master's degree in Biostatistics from Washington University in St. Louis and bachelor's degree in Biology from Wuhan University. The mixture of statistics, biology, and bioinformatics inspired my career in the field of computational biology, which is the main story in the Koslicki Lab: you can find many funny stories to follow here.  
+Before becoming a PhD student, I used to be an Assistant Professor at the Department of CSE, Bangladesh University of Engineering and Technology. After completing graduation from BUET in 2017, I joined CSE, BUET as a Lecturer the same year. In September 2020, I joined CSE, BUET as an Assistant Professor. I completed my Master's degree under the supervision of Dr. Atif Hasan Rahman.
 
-Outside the lab, I usually play basketball (amateur), go to gym (amateur), go hiking (rookie), bake (amateur), or enjoy myself with Steam or Switch (skillful). My wife is always my best teammate except for video games.  
+In my free time, I love to play table tennis and pool. I am also an amateur guitarist, I spend a lot of my free time studying music theory. 
 
