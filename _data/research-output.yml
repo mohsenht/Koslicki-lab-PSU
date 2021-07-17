@@ -1,3 +1,307 @@
+- title: Critical Assessment of Metagenome Interpretation - the second round of challenges
+  authors:
+  - F. Meyer
+  - A. Fritz
+  - Z.-L. Deng
+  - D. Koslicki
+  - A. Gurevich
+  - G. Robertson
+  - M. Alser
+  - D. Antipov
+  - F. Beghini
+  - D. Bertrand
+  - J. J. Brito
+  - C.T. Brown
+  - J. Buchmann
+  - "A. Bulu\xE7"
+  - B. Chen
+  - R. Chikhi
+  - P. T. Clausen
+  - A. Cristian
+  - P. W. Dabrowski
+  - A. E. Darling
+  - R. Egan
+  - E. Eskin
+  - E. Georganas
+  - E. Goltsman
+  - M. A. Gray
+  - L. H. Hansen
+  - S. Hofmeyr
+  - P. Huang
+  - L. Irber
+  - H. Jia
+  - "T. S. J\xF8rgensen"
+  - S. D. Kieser
+  - T. Klemetsen
+  - A. Kola
+  - M. Kolmogorov
+  - A. Korobeynikov
+  - J. Kwan
+  - N. LaPierre
+  - C. Lemaitre
+  - C. Li
+  - A. Limasset
+  - F. Malcher-Miranda
+  - S. Mangul
+  - V. R. Marcelino
+  - C. Marchet
+  - P. Marijon
+  - D. Meleshko
+  - D. R. Mende
+  - A. Milanese
+  - N. Nagarajan
+  - J. Nissen
+  - S. Nurk
+  - L. Oliker
+  - L. Paoli
+  - P. Peterlongo
+  - V. C. Piro
+  - J. S. Porter
+  - S. Rasmussen
+  - E. R. Rees
+  - K. Reinert
+  - B. Renard
+  - E. M. Robertsen
+  - G. L. Rosen
+  - H.-J. Ruscheweyh
+  - V. Sarwal
+  - N. Segata
+  - E. Seiler
+  - L. Shi
+  - F. Sun
+  - S. Sunagawa
+  - "S. J. S\xF8rensen"
+  - A. Thomas
+  - C. Tong
+  - M. Trajkovski
+  - J. Tremblay
+  - G. Uritskiy
+  - R. Vicedomini
+  - Zi. Wang
+  - Zhe. Wang
+  - Zho. Wang
+  - A. Warren
+  - N. P. Willassen
+  - K. Yelick
+  - R. You
+  - G. Zeller
+  - Z. Zhao
+  - S. Zhu
+  - J. Zhu
+  - R. Garrido-Oter
+  - P. Gastmeier
+  - S. Hacquard
+  - "S. H\xE4u\xDFler"
+  - A. Khaledi
+  - F. Maechler
+  - F. Mesny
+  - S. Radutoiu
+  - P. Schulze-Lefert
+  - N. Smit
+  - T. Strowig
+  - A. Bremges
+  - A. Sczyrba
+  - A. C. McHardy
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-07-12'
+  link: https://doi.org/gk566x
+  id: 10.1101/2021.07.12.451567
+  image: images/publication/rxiv_CAMI_2nd.png
+  tags:
+  - PREPRINT
+  - metagenomics
+  - CAMI
+  descriptions: 'The discussion of the second round of CAMI challenges.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_CAMI_2nd
+    text: Highlights
+  - type: source
+    link: https://github.com/CAMI-challenge
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2021.07.12.451567v1
+    text: Preprint
+- title: The statistics of <i>k</i> -mers from a sequence undergoing a simple mutation
+    process without spurious matches
+  authors:
+  - Antonio Blanca
+  - Robert S. Harris
+  - David Koslicki
+  - Paul Medvedev
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-02-09'
+  link: https://doi.org/fq3g
+  id: 10.1101/2021.01.15.426881
+  image: images/publication/rxiv_kmer_stats.png
+  tags:
+  - PREPRINT
+  - k-mer
+  descriptions: 'We derive hypothesis tests and confidence intervals for sequence
+    similarities based on simple mutation process.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_kmer_stats
+    text: Highlights
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2021.01.15.426881v2
+    text: Preprint
+- title: Leveraging Distributed Biomedical Knowledge Sources to Discover Novel Uses
+    for Known Drugs
+  authors:
+  - Finn Womack
+  - Jason McClelland
+  - David Koslicki
+  publisher: Cold Spring Harbor Laboratory
+  date: '2019-09-12'
+  link: https://doi.org/gkv9g2
+  id: 10.1101/765305
+  image: images/publication/rxiv_kg_rediscovery.png
+  tags:
+  - PREPRINT
+  - knowledge graphs
+  - drug repurposing
+  descriptions: 'We leverage a graph-based approach to integrate biological knowledge
+    and then employ a graph node embedding scheme to make novel predictions about
+    current drugs.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_kg_repurpose
+    text: Highlights
+  - type: sosurce
+    link: https://github.com/RTXteam/RTX/tree/reasoning_lists/code/reasoningtool/kg-construction
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/765305v2
+    text: Preprint
+- title: 'Tutorial: assessing metagenomics software with the CAMI benchmarking toolkit'
+  authors:
+  - Fernando Meyer
+  - Till-Robin Lesker
+  - David Koslicki
+  - Adrian Fritz
+  - Alexey Gurevich
+  - Aaron E. Darling
+  - Alexander Sczyrba
+  - Andreas Bremges
+  - Alice C. McHardy
+  publisher: Nature Protocols
+  date: '2021-03-01'
+  link: https://doi.org/gh77rh
+  id: 10.1038/s41596-020-00480-3
+  image: images/publication/2021_tutorial_cami.png
+  tags:
+  - metagenomics
+  - CAMI
+  descriptions: 'Tutorial for using CAMI toolkits to access metagenomic software.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/2021_tutor_cami
+    text: Highlights
+  - type: source
+    link: https://github.com/CAMI-challenge
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2020.08.11.245712v1
+    text: Preprint
+- title: "Application of MCAT questions as a testing tool and evaluation metric for\
+    \ knowledge graph\u2013based reasoning systems"
+  authors:
+  - Karamarie Fecho
+  - James Balhoff
+  - Chris Bizon
+  - William E. Byrd
+  - Sui Hang
+  - David Koslicki
+  - Stefano E. Rensi
+  - Patrick L. Schmitt
+  - Mathias J. Wawer
+  - Mark Williams
+  - Stanley C. Ahalt
+  publisher: Clinical and Translational Science
+  date: '2021-04-09'
+  link: https://doi.org/gj7chf
+  id: 10.1111/cts.13021
+  image: ''
+  tags:
+  - knowledge graphs
+  - reasoning
+  descriptions: 'Reasoning system based on knowledge graphs.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/2021_apply_MCAT_KG
+    text: Highlights
+- title: 'Metalign: efficient alignment-based metagenomic profiling via containment
+    min hash'
+  authors:
+  - Nathan LaPierre
+  - Mohammed Alser
+  - Eleazar Eskin
+  - David Koslicki
+  - Serghei Mangul
+  publisher: Genome Biology
+  date: '2020-09-10'
+  link: https://doi.org/ghtqrz
+  id: 10.1186/s13059-020-02159-0
+  image: images/publication/2020_metalign.png
+  tags:
+  - metagenomic profiling
+  - alignment
+  description: 'Utilizing a pre-filter strategy, Metalign performs efficient and accurate
+    alignment-based metagenomic profiling through the estimation of contaiment indices
+    of pre-built reference databases.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/2020_metalign
+    text: Highlights
+  - type: source
+    link: https://github.com/nlapier2/Metalign
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2020.01.17.910521v1
+    text: Preprint
+- title: Improving the usability and comprehensiveness of microbial databases
+  authors:
+  - Caitlin Loeffler
+  - Aaron Karlsberg
+  - Lana S. Martin
+  - Eleazar Eskin
+  - David Koslicki
+  - Serghei Mangul
+  publisher: BMC Biology
+  date: '2020-04-07'
+  link: https://doi.org/ghqfdt
+  id: 10.1186/s12915-020-0756-z
+  image: images/publication/2020_improve_usage.png
+  tags:
+  - metagenomics
+  - database
+  description: 'We analyze and discuss guidelines for the development of a master
+    reference database for disparate reference databases.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/2020_improve_usage
+    text: Highlights
+  - type: source
+    link: https://github.com/Mangul-Lab-USC/db.microbiome
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/497867v3
+    text: Preprint
 - title: Assessing taxonomic metagenome profilers with OPAL
   authors:
   - Fernando Meyer
