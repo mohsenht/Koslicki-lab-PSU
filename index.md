@@ -57,7 +57,7 @@ We are a team of enthusiastic researchers aimed to combine open omics data with 
 
 {%
   include feature.html
-  image="images/image_3.jpg"
+  image="images/direction3_image.jpg"
   link="research"
   heading="Metagenomics Research"
   text=text
