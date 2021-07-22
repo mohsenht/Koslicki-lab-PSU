@@ -1,5 +1,5 @@
 ---
-title: Finn Womack# fill out your name
+title: Finn Womack # fill out your name
 
 # name variations to include when generating list of this person's papers
 search:
