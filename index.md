@@ -2,8 +2,8 @@
 title: Home 
 ---
 
-# Koslicki Lab at Pennsylvania State University
-Koslicki lab focus on computational biology. We are interested in developing mathematically sound approaches...... (more description)
+# The Koslicki Lab at Pennsylvania State University
+The Koslicki lab focuses on computational biology. We are interested in developing efficient, mathematically sound approaches to extract insight from omics data. This puts our research squarely at the intersection of biology, mathematics, and computer science. We are particularly interested in the entire arc of developing computational biology methods: rigorous mathematical justification of a method, implementing the method into a tool usable by the community, applying the tool to pressing scientific problems, and finally using the results to inform further development of computational techniques.
 
 <div class="item2">
   <p style='text-align: center; font-size: 18px'> Recent News About Our Lab</p>
