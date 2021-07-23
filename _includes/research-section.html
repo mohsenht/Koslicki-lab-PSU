@@ -1,7 +1,7 @@
 <div>
     <h2 id='{{ include.id }}' style='text-align:center; margin-bottom:20px; padding:0;'> {{ include.direction_name }} </h2>
     {% for research in site.data.research %}
-      {% if research.type == 'type1' %}
+      {% if include.id == research.type %}
           <h3 style='margin-top:10px; margin-bottom:5px; padding:0; text-align: left;'>{{ research.title }}</h3>
           <h4 style='margin:0; padding-top:0; text-align: left;'> Participant(s): <span>{{ research.people }}</span></h4>
           <p style='margin:0; padding-top:0;'>{{ research.desc }}</p>

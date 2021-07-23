@@ -1,45 +1,15 @@
 # Type: type1 -> Algorithm Development or Mathematical Theory; type2 -> Reasoning Over Large Knowledge Graphs; type3 -> Metagenomics Research
 - type: type1
-  title: Research Title1
-  people: Chunyu Ma, Shaopeng Liu
-  desc: This is reserach description
-
-- type: type1
-  title: Research Title2
-  people: Chunyu Ma, Shaopeng Liu
-  desc: This is reserach description
-
-- type: type1
-  title: Research Title3
-  people: Chunyu Ma, Shaopeng Liu
-  desc: This is reserach description
+  title: Scaled MinHash
+  people: Mahmudur Rahman Hera
+  desc: MinHash is a popular method to estimate the Jaccard similarity (as well as the containment index) between two sets. The idea behind MinHash is that the probability that the minimum hash value of two sets being equal is the same as their Jaccard index. Therefore, by using multiple hash functions and generating the minimum hash values, Jaccard index between the two sets can be estimated. However, if the two sets are very large, calculating the min-hash value multiple times could turn out to be exhausting; and working with only a portion of the two sets is more feasible. In this project, we are working on developing sound mathematical theory to incorporate a scaling factor that indicates the size of the subsets respective of the original sets, and to make sure that the containment and Jaccard values of the smaller sets estimate the true values well enough. In metagenomic applications, the two sets would be sets of k-mers derived from two genomes. Therefore, we are also working on extending the theory with a simple mutation model (where one genome is mutated into another) and determining the mutation rate given the containment and Jaccard values of two smaller scaled subsets of k-mers.
 
 - type: type2
-  title: Research Title1
+  title: Automatic Drug Repurposing Reasoning over knowledge graph
   people: Chunyu Ma
-  desc: This is reserach description
-
-- type: type2
-  title: Research Title2
-  people: Chunyu Ma
-  desc: This is reserach description
-
-- type: type2
-  title: Research Title3
-  people: Chunyu Ma
-  desc: This is reserach description
+  desc: Traditional drug discovery methods are time-consuming and costly. In contrast, identifying new indication uses for approved drugs, also known as drug repositioning or drug repurposing, provides a relatively safe, cheap and fast alternative. As the expoential increasement of available biomedical knowledge and data stored in different databases (e.g. DrugBank, KEGG, Ensembl and so on), we are able to integrate these knowledge sources as a large graph (known as knowledge graph) and predict the probability of the new uses of the approved drug via deep learning tehcniques (especially graph neural networks). In this project, we aim to design a pwerful drug repuposing model which contains not only a good prediction performance but expliability.
 
 - type: type3
   title: Research Title1
-  people: Shaopeng Liu
-  desc: This is reserach description
-
-- type: type3
-  title: Research Title2
-  people: Shaopeng Liu
-  desc: This is reserach description
-
-- type: type3
-  title: Research Title3
   people: Shaopeng Liu
   desc: This is reserach description
