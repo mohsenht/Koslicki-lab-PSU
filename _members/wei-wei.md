@@ -6,7 +6,7 @@ search:
   - Wei
 
 # if image not specified, default will automatically be used
-image: images/team/Wei-Wei.jpg ## the path of your profile photo, please put it under 'images/team' and name it as firstname-lastname.jpg
+image: images/team/Wei-Wei.JPG## the path of your profile photo, please put it under 'images/team' and name it as firstname-lastname.jpg
 
 # role must be included or person won't appear on team page
 role: phd ## options: pi-Principal Investigator, postdoc-Postdoctoral Researcher, phd-PhD Student, masters-Master's Student, undergrad-Undergraduate Student, highschool-High School Student, programmer-Software Engineer
