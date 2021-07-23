@@ -13,7 +13,7 @@ search:
 role: phd ## options: pi-Principal Investigator, postdoc-Postdoctoral Researcher, phd-PhD Student, masters-Master's Student, undergrad-Undergraduate Student, highschool-High School Student, programmer-Software Engineer
 
 # add person to alumni group
-# group: alum ## comment it if you're not alumni
+group: alum ## comment it if you're not alumni
 
 # contact info and social media links
 # email: sml6467@psu.edu ## fill out your email
