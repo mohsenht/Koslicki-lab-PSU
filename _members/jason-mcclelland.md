@@ -27,4 +27,4 @@ github: jlmcclelland ## your github account if you like to put it on your profil
 ---
 [comment]: Fill out your description below 
 
-Jason was a former PhD student (graduated 2018) and subsequent postdoc who is now employed as an assistant professor at the College of Idaho.
+Jason was a former PhD student (graduated 2018 from Oregon State University) and subsequent postdoc who is now employed as an assistant professor at the College of Idaho.
