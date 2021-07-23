@@ -26,7 +26,7 @@ defaults:
   - scope:
       path: ""
     values:
-      description: Where Genome gets compiled # description that will show under search engine results
+      description: Where (meta)genomes get compiled # description that will show under search engine results
       background: images/backgrounds/penn_state_bk.jpeg # background image in header and footer
       layout: default
   # markdown files in /_members
