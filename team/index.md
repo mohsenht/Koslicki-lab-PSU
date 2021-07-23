@@ -41,7 +41,7 @@ The Koslicki Lab is committed to ensuring an inclusive and supportive environmen
 
 ## Alumni
 
-These alumni from the lab who have graduated and moved on to other positions.
+These alumni from the lab have graduated and moved on to other positions.
 
 {% capture html %}
 {% include team-list.html role="pi" group="alum" mini="true" %}
