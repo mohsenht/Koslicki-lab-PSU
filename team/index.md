@@ -38,11 +38,10 @@ The Koslicki Lab is committed to ensuring an inclusive and supportive environmen
   link="join"
 %}{:.center}
 
-<!-- 
+
 ## Alumni
 
-
-These are past lab alumni who have moved on to the industry, other school programs, new jobs, or elsewhere.
+These alumni from the lab who have graduated and moved on to other positions.
 
 {% capture html %}
 {% include team-list.html role="pi" group="alum" mini="true" %}
@@ -56,7 +55,7 @@ These are past lab alumni who have moved on to the industry, other school progra
 {% include team-list.html role="mascot" group="alum" mini="true" %}
 {% endcapture %}
 
-{% include centerer.html html=html %} -->
+{% include centerer.html html=html %}
 
 <!-- ## Funding
 
