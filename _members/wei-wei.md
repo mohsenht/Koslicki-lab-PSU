@@ -27,4 +27,7 @@ github: raquellewei ## your github account if you like to put it on your profile
 ---
 [comment]: Fill out your description below 
 
-I'm a Ph.D. student in the Binformatics and Genomics (BG) program at Penn State University (PSU) and I joined the Koslicki Lab in May 2020.
+I'm a Ph.D. student in the Binformatics and Genomics (BG) program at Penn State University (PSU) and I joined the Koslicki Lab in May 2020. My research interests are in developing computational methods and exploring their applications in solving real-world biological problems, as well as proving related mathematical
+results.
+Prior to joining PSU, I was doing my master's degree in Bioinformatics at Northeastern University in Boston. Prior to that, I was doing my undergrad in Applied Mathematics at National University of Singapore. 
+I enjoy attending Bible studies. I like to paint and read and cook as well. I was also once a decent pianist and an award-winning Chinese short story writer. 
