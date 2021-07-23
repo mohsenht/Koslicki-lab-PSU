@@ -26,3 +26,5 @@ github: finnagin ## your github account if you like to put it on your profile
 ---
 [comment]: Fill out your description below 
 
+I am an Analyst Programmer working in the Koslicki Lab since October 2020. Prior to joining the Koslicki Lab I worked in [the Ramsey Lab](https://lab.saramsey.org/) at Oregon State University while receiving a Master's in Computer Science and before that I received my Bachelor's in Mathematics from Oregon State University. I am interested in using applied Mathematics and data science to solve pressing problems in computational biology. My current research focus is in developing computational tools and methods for constructing and reasoning over biomedical knowledge graphs for the [NCATS funded Biomedical Translator Project](https://ncats.nih.gov/translator). 
+Outside of my research I am a creative cook, a ravenous reader, and a tireless traveler. In my spare time I love to hike, photograph the night sky, play computer games, explore new foods & places, and I've just started learning to play the piano.
