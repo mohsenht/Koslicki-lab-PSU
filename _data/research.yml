@@ -10,6 +10,10 @@
   desc: Traditional drug discovery methods are time-consuming and costly. In contrast, identifying new indication uses for approved drugs, also known as drug repositioning or drug repurposing, provides a relatively safe, cheap and fast alternative. As the expoential increasement of available biomedical knowledge and data stored in different databases (e.g. DrugBank, KEGG, Ensembl and so on), we are able to integrate these knowledge sources as a large graph (known as knowledge graph) and predict the probability of the new uses of the approved drug via deep learning tehcniques (especially graph neural networks). In this project, we aim to design a pwerful drug repuposing model which contains not only a good prediction performance but expliability.
 
 - type: type3
-  title: Research Title1
+  title: Multi-resolution estimation of k-mer-based Jaccard and containment indices
   people: Shaopeng Liu
-  desc: This is reserach description
+  desc: | 
+    K-mer based methods are used ubiquitously in the field of computational biology. However, determining the optimal value of k for a specific application often remains heuristic. Simply reconstructing a new k-mer set with another k-mer size is computationally expensive, especially in metagenomic analysis where data sets are large. <br>
+    In this project, we've developed a truncation-based method to estimate multi-resolution estimation in a more efficient way. And we're working on showing its efficacy and superiority in metagenomic analysis. The source code CMash can be found <a href="https://github.com/dkoslicki/CMash">here</a>, and the proof-of-concept implementation and benchmark analysis can be found <a href="https://github.com/KoslickiLab/CMASH-reproducibles">here</a>.
+
+
