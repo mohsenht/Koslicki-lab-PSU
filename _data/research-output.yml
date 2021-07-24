@@ -108,7 +108,7 @@
   id: 10.1101/2021.07.12.451567
   image: images/publication/rxiv_CAMI_2nd.png
   tags:
-  - PREPRINT
+  - Temp_PREPRINT
   - metagenomics
   - CAMI
   descriptions: 'The discussion of the second round of CAMI challenges.
@@ -137,7 +137,7 @@
   id: 10.1101/2021.01.15.426881
   image: images/publication/rxiv_kmer_stats.png
   tags:
-  - PREPRINT
+  - Temp_PREPRINT
   - k-mer
   descriptions: 'We derive hypothesis tests and confidence intervals for sequence
     similarities based on simple mutation process.
@@ -162,7 +162,7 @@
   id: 10.1101/765305
   image: images/publication/rxiv_kg_rediscovery.png
   tags:
-  - PREPRINT
+  - Temp_PREPRINT
   - knowledge graphs
   - drug repurposing
   descriptions: 'We leverage a graph-based approach to integrate biological knowledge
@@ -174,11 +174,113 @@
   - type: data
     link: paper_intro/rxiv_kg_repurpose
     text: Highlights
-  - type: sosurce
+  - type: source
     link: https://github.com/RTXteam/RTX/tree/reasoning_lists/code/reasoningtool/kg-construction
     text: Github
   - type: preprint
     link: https://www.biorxiv.org/content/10.1101/765305v2
+    text: Preprint
+- title: 'Technology dictates algorithms: Recent developments in read alignment'
+  authors:
+  - Mohammed Alser
+  - Jeremy Rotman
+  - Kodi Taraszka
+  - Huwenbo Shi
+  - Pelin Icer Baykal
+  - Harry Taegyun Yang
+  - Victor Xue
+  - Sergey Knyazev
+  - Benjamin D. Singer
+  - Brunilda Balliu
+  - David Koslicki
+  - Pavel Skums
+  - Alex Zelikovsky
+  - Can Alkan
+  - Onur Mutlu
+  - Serghei Mangul
+  publisher: arXiv
+  date: '2020-07-13'
+  link: https://arxiv.org/abs/2003.00110
+  id: arxiv:2003.00110
+  image: images/publication/rxiv_dev_align_alg.png
+  tags:
+  - Temp_PREPRINT
+  - read alignment
+  - algorithm
+  descriptions: 'We provide rigorous experimental evaluation of 11 read aligners to
+    demonstrate the effect of these underlying algorithms on speed and efficiency
+    of read aligners.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_dev_align_alg
+    text: Highlights
+  - type: preprint
+    link: https://arxiv.org/abs/2003.00110
+    text: Preprint
+- title: Finer Metagenomic Reconstruction via Biodiversity Optimization
+  authors:
+  - Simon Foucart
+  - David Koslicki
+  publisher: arXiv
+  date: '2020-01-24'
+  link: https://arxiv.org/abs/2001.08717
+  id: arxiv:2001.08717
+  image: images/publication/rxiv_finder_meta_recon.png
+  tags:
+  - Temp_PREPRINT
+  - metagenomic
+  - reconstruction
+  - biodiversity optimization
+  descriptions: 'We leverage a recently developed notion of biological diversity that
+    simultaneously accounts for organism similarities and retains the optimization
+    strategy underlying compressive-sensing-based approaches.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_meta_recon_biodiver_opt
+    text: Highlights
+  - type: source
+    link: https://github.com/dkoslicki/MinimizeBiologicalDiversity
+    text: Github
+  - type: preprint
+    link: https://arxiv.org/abs/2001.08717
+    text: Preprint
+- title: 'Metagenomics for clinical diagnostics: technologies and informatics'
+  authors:
+  - Caitlin Loeffler
+  - Keylie M. Gibson
+  - Lana Martin
+  - Liz Chang
+  - Jeremy Rotman
+  - Ian V. Toma
+  - Christopher E. Mason
+  - Eleazar Eskin
+  - Joseph P. Zackular
+  - Keith A. Crandall
+  - David Koslicki
+  - Serghei Mangul
+  publisher: arXiv
+  date: '2020-08-11'
+  link: https://arxiv.org/abs/1911.11304
+  id: arxiv:1911.11304
+  image: images/publication/rxiv_meta_for_clinical.png
+  tags:
+  - Temp_PREPRINT
+  - metagenomic
+  - clinical diagnostics
+  descriptions: 'We present an overview of metagenomics methods with a discussion
+    of computational challenges and limitations.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_meta_for_clinical
+    text: Highlights
+  - type: preprint
+    link: https://arxiv.org/abs/1911.11304
     text: Preprint
 - title: 'Tutorial: assessing metagenomics software with the CAMI benchmarking toolkit'
   authors:
