@@ -54,12 +54,14 @@
 
 
 
+
+
 #################################### Rxiv version, may need to change in the future
-### CAMI: 2nd challenge
+###Preprint: CAMI: 2nd challenge
 - id: 10.1101/2021.07.12.451567
   image: images/publication/rxiv_CAMI_2nd.png
   tags:
-    - PREPRINT
+    - Temp_PREPRINT
     - metagenomics
     - CAMI
   descriptions: >
@@ -77,11 +79,11 @@
 
 
 
-### Stats of kmers from mutation process
+###Preprint: Stats of kmers from mutation process
 - id: 10.1101/2021.01.15.426881
   image: images/publication/rxiv_kmer_stats.png
   tags:
-    - PREPRINT
+    - Temp_PREPRINT
     - k-mer
   descriptions: >
     We derive hypothesis tests and confidence intervals for sequence similarities based on simple mutation process.
@@ -95,11 +97,11 @@
 
 
 
-### Leveraging kgs for rediscovery
+###Preprint: Leveraging kgs for rediscovery
 - id: 10.1101/765305
   image: images/publication/rxiv_kg_rediscovery.png
   tags: 
-    - PREPRINT
+    - Temp_PREPRINT
     - knowledge graphs
     - drug repurposing
   descriptions: >
@@ -108,7 +110,7 @@
     - type: data
       link: paper_intro/rxiv_kg_repurpose
       text: Highlights
-    - type: sosurce
+    - type: source
       link: https://github.com/RTXteam/RTX/tree/reasoning_lists/code/reasoningtool/kg-construction
       text: Github
     - type: preprint
@@ -117,6 +119,66 @@
 
 
 
+
+###Preprint: Recent developments in read alignment
+- id: "arxiv:2003.00110"
+  image: images/publication/rxiv_dev_align_alg.png
+  tags: 
+    - Temp_PREPRINT
+    - read alignment
+    - algorithm
+  descriptions: >
+    We provide rigorous experimental evaluation of 11 read aligners to demonstrate the effect of these underlying algorithms on speed and efficiency of read aligners.
+  extra-links:
+    - type: data
+      link: paper_intro/rxiv_dev_align_alg
+      text: Highlights
+    - type: preprint
+      link: https://arxiv.org/abs/2003.00110
+      text: Preprint
+
+
+
+###Preprint: Finer Metagenomic Reconstruction via Biodiversity Optimization
+- id: "arxiv:2001.08717"
+  image: images/publication/rxiv_finder_meta_recon.png
+  tags:
+    - Temp_PREPRINT
+    - metagenomic
+    - reconstruction
+    - biodiversity optimization
+  descriptions: >
+    We leverage a recently developed notion of biological diversity that simultaneously accounts for organism similarities and retains the optimization strategy underlying compressive-sensing-based approaches.
+  extra-links:
+    - type: data
+      link: paper_intro/rxiv_meta_recon_biodiver_opt
+      text: Highlights
+    - type: source
+      link: https://github.com/dkoslicki/MinimizeBiologicalDiversity
+      text: Github
+    - type: preprint
+      link: https://arxiv.org/abs/2001.08717
+      text: Preprint
+
+
+###Preprint: Metagenomics for clinical diagnostics: technologies and informatics
+- id: "arxiv:1911.11304"
+  image: images/publication/rxiv_meta_for_clinical.png
+  tags:
+    - Temp_PREPRINT
+    - metagenomic
+    - clinical diagnostics
+  descriptions: >
+    We present an overview of metagenomics methods with a discussion of computational challenges and limitations.
+  extra-links:
+    - type: data
+      link: paper_intro/rxiv_meta_for_clinical
+      text: Highlights
+    - type: preprint
+      link: https://arxiv.org/abs/1911.11304
+      text: Preprint
+
+ 
 
 
 
