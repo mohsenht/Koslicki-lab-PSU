@@ -4,9 +4,6 @@
 
 <h2><font color="red">To be discussed </font></h2> 
 
-- [ ] Add your introduction with an image (check below for the method)
-- [ ] improve the outlook 
-- [ ] Plot size in paper/software need to be adjusted (should be in the _include file)
 
 
 <h2><font color="blue">Documentation </font></h2> 
