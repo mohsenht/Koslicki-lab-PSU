@@ -65,7 +65,7 @@
     - metagenomics
     - CAMI
   descriptions: >
-    The discussion of the second round of CAMI challenges.
+    We analyze and present the results of the second round of the CAMI competition. Over 5,000 results were submitted by 76 different metagenomic tools covering the tasks of assembly, binning, and profiling.
   extra-links:
     - type: data
       link: paper_intro/rxiv_CAMI_2nd
@@ -86,7 +86,7 @@
     - Temp_PREPRINT
     - k-mer
   descriptions: >
-    We derive hypothesis tests and confidence intervals for sequence similarities based on simple mutation process.
+    We derive hypothesis tests and confidence intervals for sequence similarities based on a simple mutation process.
   extra-links:
     - type: data
       link: paper_intro/rxiv_kmer_stats
@@ -118,24 +118,6 @@
       text: Preprint
 
 
-
-
-###Preprint: Recent developments in read alignment
-- id: "arxiv:2003.00110"
-  image: images/publication/rxiv_dev_align_alg.png
-  tags: 
-    - Temp_PREPRINT
-    - read alignment
-    - algorithm
-  descriptions: >
-    We provide rigorous experimental evaluation of 11 read aligners to demonstrate the effect of these underlying algorithms on speed and efficiency of read aligners.
-  extra-links:
-    - type: data
-      link: paper_intro/rxiv_dev_align_alg
-      text: Highlights
-    - type: preprint
-      link: https://arxiv.org/abs/2003.00110
-      text: Preprint
 
 
 
@@ -190,6 +172,27 @@
 
 
 #################################### 2021
+
+## Review technology dictates algorithms
+- id: 10.1186/s13059-021-02443-7
+  image: images/publication/aligners.png
+  tags: 
+    - Read alignment
+    - Review
+  descriptions: >
+    We provide a systematic survey of 107 long and short read alignment tools and analyze how alignment algorithms have co-evolved with sequencing technology advancements, as well as how these algorithmic changes affect tool performance.
+  extra-links:
+    - type: data
+      link: paper_intro/2021_technology.md
+      text: Highlights
+    - type: source
+      link: https://github.com/Mangul-Lab-USC/review-technology-dictates-algorithms
+      text: Github
+    - type: preprint
+      link: https://arxiv.org/abs/2003.00110
+      text: Preprint
+
+
 ### Tutorial CAMI benchmark
 - id: 10.1038/s41596-020-00480-3
   image: images/publication/2021_tutorial_cami.png
