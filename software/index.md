@@ -12,7 +12,7 @@ This page includes our open-sourced softwares, lab information, and some useful 
 
 <!-- section break -->
 
-## We develop CompuBio software!
+## We develop Computational Biology software!
 
 {% capture html %}
 {% include resource-list.html type="software" size="large" %}
