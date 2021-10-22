@@ -1,3 +1,47 @@
+- title: 'RTX-KG2: a system for building a semantically standardized knowledge graph
+    for translational biomedicine'
+  authors:
+  - E. C. Wood
+  - Amy K. Glen
+  - Lindsey G. Kvarfordt
+  - Finn Womack
+  - Liliana Acevedo
+  - Timothy S. Yoon
+  - Chunyu Ma
+  - Veronica Flores
+  - Meghamala Sinha
+  - Jared C. Roach
+  - Luis Mendoza
+  - Andrew S. Hoffman
+  - Eric W. Deutsch
+  - David Koslicki
+  - Stephen A. Ramsey
+  publisher: Bioinformatics
+  date: '2021-10-18'
+  link: https://doi.org/gm6xqw
+  id: 10.1101/2021.10.17.464747
+  image: images/publication/rxiv_CAMI_2nd.png
+  tags:
+  - Temp_PREPRINT
+  - knowledge graphs
+  - biomedical knowledge integration
+  - semantic normalization
+  descriptions: 'We develop RTX-KG2, a biomedical knowledge graph that uses an Extract-Transform-Load
+    (ETL) approach to integrate 70 knowledge sources (including UMLS, SemMedDB, ChEMBL,
+    DrugBank, SMPDB, and 65 additional knowledge sources) into a single knowledge
+    graph and conforms to the Biolink standard metamodel.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_RTX_KG2
+    text: Highlights
+  - type: source
+    link: https://github.com/RTXteam/RTX-KG2
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2021.10.17.464747v1
+    text: Preprint
 - title: Critical Assessment of Metagenome Interpretation - the second round of challenges
   authors:
   - F. Meyer
@@ -102,7 +146,7 @@
   - A. Bremges
   - A. Sczyrba
   - A. C. McHardy
-  publisher: Cold Spring Harbor Laboratory
+  publisher: Bioinformatics
   date: '2021-07-12'
   link: https://doi.org/gk566x
   id: 10.1101/2021.07.12.451567
