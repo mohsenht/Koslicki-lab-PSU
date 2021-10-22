@@ -16,11 +16,11 @@
   - Eric W. Deutsch
   - David Koslicki
   - Stephen A. Ramsey
-  publisher: Bioinformatics
+  publisher: Cold Spring Harbor Laboratory
   date: '2021-10-18'
   link: https://doi.org/gm6xqw
   id: 10.1101/2021.10.17.464747
-  image: images/publication/rxiv_CAMI_2nd.png
+  image: images/publication/rxiv_RTX_KG2.png
   tags:
   - Temp_PREPRINT
   - knowledge graphs
@@ -146,7 +146,7 @@
   - A. Bremges
   - A. Sczyrba
   - A. C. McHardy
-  publisher: Bioinformatics
+  publisher: Cold Spring Harbor Laboratory
   date: '2021-07-12'
   link: https://doi.org/gk566x
   id: 10.1101/2021.07.12.451567
