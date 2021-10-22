@@ -57,6 +57,29 @@
 
 
 #################################### Rxiv version, may need to change in the future
+
+###Preprint: RTX-KG2: a system for building a semantically standardized knowledge graph for translational biomedicine
+- id: 10.1101/2021.10.17.464747
+  image: images/publication/rxiv_CAMI_2nd.png
+  tags:
+    - Temp_PREPRINT
+    - knowledge graphs
+    - biomedical knowledge integration
+    - semantic normalization
+  descriptions: >
+    We develop RTX-KG2, a biomedical knowledge graph that uses an Extract-Transform-Load (ETL) approach to integrate 70 knowledge sources (including UMLS, SemMedDB, ChEMBL, DrugBank, SMPDB, and 65 additional knowledge sources) into a single knowledge graph and conforms to the Biolink standard metamodel.
+  extra-links:
+    - type: data
+      link: paper_intro/rxiv_RTX_KG2
+      text: Highlights
+    - type: source
+      link: https://github.com/RTXteam/RTX-KG2
+      text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/2021.10.17.464747v1
+      text: Preprint
+
+
 ###Preprint: CAMI: 2nd challenge
 - id: 10.1101/2021.07.12.451567
   image: images/publication/rxiv_CAMI_2nd.png
@@ -76,7 +99,6 @@
     - type: preprint
       link: https://www.biorxiv.org/content/10.1101/2021.07.12.451567v1
       text: Preprint
-
 
 
 ###Preprint: Stats of kmers from mutation process
