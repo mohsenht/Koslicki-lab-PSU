@@ -81,8 +81,6 @@
 
 
 
-=======
-
 ###Preprint: RTX-KG2: a system for building a semantically standardized knowledge graph for translational biomedicine
 - id: 10.1101/2021.10.17.464747
   image: images/publication/rxiv_RTX_KG2.png
@@ -105,7 +103,6 @@
       text: Preprint
 
 
->>>>>>> c45fd08e3bd4fc15a7d8f68ea7f48b2a523c22ea
 ###Preprint: CAMI: 2nd challenge
 - id: 10.1101/2021.07.12.451567
   image: images/publication/rxiv_CAMI_2nd.png
