@@ -57,6 +57,30 @@
 
 
 #################################### Rxiv version, may need to change in the future
+###Preprint: CMash
+- id: 10.1101/2021.12.06.471436
+  image: images/publication/rxiv_CMash.png
+  tags:
+    - k-mer
+    - Jaccard index
+    - MinHash
+    - Containment index
+    - Truncation
+  descriptions: >
+    Utilizing truncation-based methods, we can obtain multi-resolution estimation of k-mer-based JI/CI in linear time for a range of k values.
+  extra-links:
+    - type: data
+      link: paper_intro/rxiv_CMash
+      text: Highlights
+    - type: source
+      link: https://github.com/dkoslicki/CMash
+      text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/2021.12.06.471436v1
+      text: Preprint
+
+
+
 ###Preprint: CAMI: 2nd challenge
 - id: 10.1101/2021.07.12.451567
   image: images/publication/rxiv_CAMI_2nd.png
