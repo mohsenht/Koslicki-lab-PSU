@@ -1,3 +1,33 @@
+- title: 'CMash: fast, multi-resolution estimation of k-mer-based Jaccard and containment
+    indices'
+  authors:
+  - Shaopeng Liu
+  - David Koslicki
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-12-07'
+  link: https://doi.org/gpgf5r
+  id: 10.1101/2021.12.06.471436
+  image: images/publication/rxiv_CMash.png
+  tags:
+  - k-mer
+  - Jaccard index
+  - MinHash
+  - Containment index
+  - Truncation
+  descriptions: 'Utilizing truncation-based methods, we can obtain multi-resolution
+    estimation of k-mer-based JI/CI in linear time for a range of k values.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_CMash
+    text: Highlights
+  - type: source
+    link: https://github.com/dkoslicki/CMash
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2021.12.06.471436v1
+    text: Preprint
 - title: 'RTX-KG2: a system for building a semantically standardized knowledge graph
     for translational biomedicine'
   authors:
@@ -10,6 +40,8 @@
   - Chunyu Ma
   - Veronica Flores
   - Meghamala Sinha
+  - Yodsawalai Chodpathumwan
+  - Arash Termehchy
   - Jared C. Roach
   - Luis Mendoza
   - Andrew S. Hoffman
@@ -170,15 +202,15 @@
   - type: preprint
     link: https://www.biorxiv.org/content/10.1101/2021.07.12.451567v1
     text: Preprint
-- title: The statistics of <i>k</i> -mers from a sequence undergoing a simple mutation
-    process without spurious matches
+- title: The statistics of k-mers from a sequence undergoing a simple mutation process
+    without spurious matches
   authors:
   - Antonio Blanca
   - Robert S. Harris
   - David Koslicki
   - Paul Medvedev
   publisher: Cold Spring Harbor Laboratory
-  date: '2021-02-09'
+  date: '2021-01-17'
   link: https://doi.org/fq3g
   id: 10.1101/2021.01.15.426881
   image: images/publication/rxiv_kmer_stats.png
@@ -203,7 +235,7 @@
   - Jason McClelland
   - David Koslicki
   publisher: Cold Spring Harbor Laboratory
-  date: '2019-09-12'
+  date: '2019-09-11'
   link: https://doi.org/gkv9g2
   id: 10.1101/765305
   image: images/publication/rxiv_kg_rediscovery.png
@@ -544,7 +576,7 @@
   - David Koslicki
   - Eleazar Eskin
   publisher: BMC Genomics
-  date: '2019-06-06'
+  date: '2019-06-01'
   link: https://doi.org/gg4mxz
   id: 10.1186/s12864-019-5699-9
   image: images/publication/2018_MiCoP.png
@@ -617,7 +649,7 @@
   - Molly Megraw
   - David Koslicki
   publisher: Bioinformatics
-  date: '2018-05-01'
+  date: '2017-12-11'
   link: https://doi.org/gcp3zk
   id: 10.1093/bioinformatics/btx798
   image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bioinformatics/34/9/10.1093_bioinformatics_btx798/3/m_btx798f6.png?Expires=1625788161&Signature=iH9au6iC4JyWxiTiEcS-SzcFFTDAUlHK~ekYpD1384iyQgSQyt~d57ZSUUSLe-600k3KuYBaUeYFmbbDuKDds0ExwtV5czgrQzm0mYnGbPCQcsk~LTTW1dsAFThvntHY-LTrj3XP2GD8T~pOS3v3hxQOsH3oKwH9DNInjsxUjyfvW2Vjc9zc6Q~YBsCAcLSa4Q5nLKzr-WT-zpuwFLxiVezPW5-Gj41BMoiXjyhXV-IgZtmaDm7EhO~8CPPYpfAB0RzzPzr2WDLolfFkUT~2Iph2wV~gY5XxWpnzjxod7zR8J87CstnrzHJmasXq85UaIKSYkDw4uIydE-Rk~jOAwQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
@@ -798,8 +830,8 @@
   - type: preprint
     link: https://www.biorxiv.org/content/10.1101/184150v1
     text: Preprint
-- title: 'MetaPalette: a <i>k</i> -mer Painting Approach for Metagenomic Taxonomic
-    Profiling and Quantification of Novel Strain Variation'
+- title: "MetaPalette: a\n            k\n            -mer Painting Approach for Metagenomic\
+    \ Taxonomic Profiling and Quantification of Novel Strain Variation"
   authors:
   - David Koslicki
   - Daniel Falush
@@ -832,7 +864,8 @@
   authors:
   - Serghei Mangul
   - David Koslicki
-  publisher: Association for Computing Machinery (ACM)
+  publisher: Proceedings of the 7th ACM International Conference on Bioinformatics,
+    Computational Biology, and Health Informatics
   date: '2016-10-02'
   link: https://doi.org/ghp82g
   id: 10.1145/2975167.2975174
@@ -985,7 +1018,7 @@
   - Siegfried Wassertheurer
   - Armando J. Pinho
   - David Koslicki
-  publisher: Lecture Notes in Computer Science
+  publisher: Interactive Knowledge Discovery and Data Mining in Biomedical Informatics
   date: '2014-01-01'
   link: https://doi.org/gktj5m
   id: 10.1007/978-3-662-43968-5_12
@@ -1091,7 +1124,7 @@
   - Simon Foucart
   - Gail Rosen
   publisher: Bioinformatics
-  date: '2013-09-01'
+  date: '2013-06-20'
   link: https://doi.org/f476tq
   id: 10.1093/bioinformatics/btt336
   image: images/publication/2013_quikr2.png
@@ -1122,7 +1155,7 @@
   authors:
   - David Koslicki
   publisher: Bioinformatics
-  date: '2011-04-15'
+  date: '2011-02-10'
   link: https://doi.org/bgtw8v
   id: 10.1093/bioinformatics/btr077
   image: images/publication/2011_topological_entropy.png
