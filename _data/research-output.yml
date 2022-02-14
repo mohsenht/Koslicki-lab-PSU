@@ -1,3 +1,47 @@
+- title: 'RTX-KG2: a system for building a semantically standardized knowledge graph
+    for translational biomedicine'
+  authors:
+  - E. C. Wood
+  - Amy K. Glen
+  - Lindsey G. Kvarfordt
+  - Finn Womack
+  - Liliana Acevedo
+  - Timothy S. Yoon
+  - Chunyu Ma
+  - Veronica Flores
+  - Meghamala Sinha
+  - Jared C. Roach
+  - Luis Mendoza
+  - Andrew S. Hoffman
+  - Eric W. Deutsch
+  - David Koslicki
+  - Stephen A. Ramsey
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-10-18'
+  link: https://doi.org/gm6xqw
+  id: 10.1101/2021.10.17.464747
+  image: images/publication/rxiv_RTX_KG2.png
+  tags:
+  - Temp_PREPRINT
+  - knowledge graphs
+  - biomedical knowledge integration
+  - semantic normalization
+  descriptions: 'We develop RTX-KG2, a biomedical knowledge graph that uses an Extract-Transform-Load
+    (ETL) approach to integrate 70 knowledge sources (including UMLS, SemMedDB, ChEMBL,
+    DrugBank, SMPDB, and 65 additional knowledge sources) into a single knowledge
+    graph and conforms to the Biolink standard metamodel.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_RTX_KG2
+    text: Highlights
+  - type: source
+    link: https://github.com/RTXteam/RTX-KG2
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2021.10.17.464747v1
+    text: Preprint
 - title: Critical Assessment of Metagenome Interpretation - the second round of challenges
   authors:
   - F. Meyer
@@ -111,7 +155,9 @@
   - Temp_PREPRINT
   - metagenomics
   - CAMI
-  descriptions: 'The discussion of the second round of CAMI challenges.
+  descriptions: 'We analyze and present the results of the second round of the CAMI
+    competition. Over 5,000 results were submitted by 76 different metagenomic tools
+    covering the tasks of assembly, binning, and profiling.
 
     '
   extra-links:
@@ -140,7 +186,7 @@
   - Temp_PREPRINT
   - k-mer
   descriptions: 'We derive hypothesis tests and confidence intervals for sequence
-    similarities based on simple mutation process.
+    similarities based on a simple mutation process.
 
     '
   extra-links:
@@ -179,45 +225,6 @@
     text: Github
   - type: preprint
     link: https://www.biorxiv.org/content/10.1101/765305v2
-    text: Preprint
-- title: 'Technology dictates algorithms: Recent developments in read alignment'
-  authors:
-  - Mohammed Alser
-  - Jeremy Rotman
-  - Kodi Taraszka
-  - Huwenbo Shi
-  - Pelin Icer Baykal
-  - Harry Taegyun Yang
-  - Victor Xue
-  - Sergey Knyazev
-  - Benjamin D. Singer
-  - Brunilda Balliu
-  - David Koslicki
-  - Pavel Skums
-  - Alex Zelikovsky
-  - Can Alkan
-  - Onur Mutlu
-  - Serghei Mangul
-  publisher: arXiv
-  date: '2020-07-13'
-  link: https://arxiv.org/abs/2003.00110
-  id: arxiv:2003.00110
-  image: images/publication/rxiv_dev_align_alg.png
-  tags:
-  - Temp_PREPRINT
-  - read alignment
-  - algorithm
-  descriptions: 'We provide rigorous experimental evaluation of 11 read aligners to
-    demonstrate the effect of these underlying algorithms on speed and efficiency
-    of read aligners.
-
-    '
-  extra-links:
-  - type: data
-    link: paper_intro/rxiv_dev_align_alg
-    text: Highlights
-  - type: preprint
-    link: https://arxiv.org/abs/2003.00110
     text: Preprint
 - title: Finer Metagenomic Reconstruction via Biodiversity Optimization
   authors:
@@ -281,6 +288,48 @@
     text: Highlights
   - type: preprint
     link: https://arxiv.org/abs/1911.11304
+    text: Preprint
+- title: 'Technology dictates algorithms: recent developments in read alignment'
+  authors:
+  - Mohammed Alser
+  - Jeremy Rotman
+  - Dhrithi Deshpande
+  - Kodi Taraszka
+  - Huwenbo Shi
+  - Pelin Icer Baykal
+  - Harry Taegyun Yang
+  - Victor Xue
+  - Sergey Knyazev
+  - Benjamin D. Singer
+  - Brunilda Balliu
+  - David Koslicki
+  - Pavel Skums
+  - Alex Zelikovsky
+  - Can Alkan
+  - Onur Mutlu
+  - Serghei Mangul
+  publisher: Genome Biology
+  date: '2021-08-26'
+  link: https://doi.org/gmmj42
+  id: 10.1186/s13059-021-02443-7
+  image: images/publication/aligners.png
+  tags:
+  - Read alignment
+  - Review
+  descriptions: 'We provide a systematic survey of 107 long and short read alignment
+    tools and analyze how alignment algorithms have co-evolved with sequencing technology
+    advancements, as well as how these algorithmic changes affect tool performance.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/2021_technology.md
+    text: Highlights
+  - type: source
+    link: https://github.com/Mangul-Lab-USC/review-technology-dictates-algorithms
+    text: Github
+  - type: preprint
+    link: https://arxiv.org/abs/2003.00110
     text: Preprint
 - title: 'Tutorial: assessing metagenomics software with the CAMI benchmarking toolkit'
   authors:
