@@ -1,3 +1,30 @@
+- title: Using the UniFrac metric on Whole Genome Shotgun data
+  authors:
+  - Wei Wei
+  - David Koslicki
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-01-20'
+  link: https://doi.org/gpg3b8
+  id: 10.1101/2022.01.17.476629
+  image: images/publication/wgsunifrac_procedures.png
+  tags:
+  - UniFrac
+  - WGS
+  - Similarity metric
+  descriptions: 'An extension of the UniFrac metric typically applied to 16S rRNA
+    data to Whole Genome Shotgun data.
+
+    '
+  extra-links:
+  - type: data
+    link: null
+    text: Highlights
+  - type: source
+    link: https://github.com/KoslickiLab/WGSUniFrac
+    text: Github
+  - type: preprint
+    link: https://doi.org/10.1101/2022.01.17.476629
+    text: Preprint
 - title: 'CMash: fast, multi-resolution estimation of k-mer-based Jaccard and containment
     indices'
   authors:
