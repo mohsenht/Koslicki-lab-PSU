@@ -150,11 +150,11 @@
 
 ######################################## Teaching: teach
 ### CMPSC 360
-- title: "CMPSC360: Discrete Mathematics"
+- title: "CMPSC360: Discrete Mathematics lecture series"
   type: teach
   image: images/software/cmpsc360.png
   link: https://www.youtube.com/playlist?list=PLEdp7JQiSiMwOfRsetEjbQFCCR0q7EtQs
-  description: lecture of CMPSC360 at PSU made by Dr. Koslicki
+  description: Lecture series for CMPSC360 at PSU made by Dr. Koslicki
 
 
 
