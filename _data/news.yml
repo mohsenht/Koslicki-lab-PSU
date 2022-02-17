@@ -1,3 +1,15 @@
+- date: February 2, 2022
+  headline: "The NIH has awarded our team continued funding for the Biomedical Data Translator project. This $1.1M award will continue to support development work on our automated reasoning agent called ARAX."
+- date: January 17, 2022
+  headline: "Mahmudur has another preprint out! Lightweight compositional analysis of metagenomes with FracMinHash and minimum metagenome covers, accessible via the bioRxiv: https://www.biorxiv.org/content/10.1101/2022.01.11.475838v2"
+- date: January 14, 2022
+  headline: "Mahmudur has a new preprint out! Debiasing FracMinHash and deriving confidence intervals for mutation rates across a wide range of evolutionary distances, accessible via the bioRxiv: https://www.biorxiv.org/content/10.1101/2022.01.11.475870v2"
+- date: January 17, 2022
+  headline: "David has a new preprint out! The minimizer Jaccard estimator is biased and inconsistent, accessible via the bioRxiv: https://www.biorxiv.org/content/10.1101/2022.01.14.476226v1"
+- date: January 28, 2022
+  headline: "Wei Wei has a new preprint out! Using the UniFrac metric on Whole Genome Shotgun data, accessible via the bioRxiv: https://www.biorxiv.org/content/10.1101/2022.01.17.476629v2"
+- date: Februrary 13, 2022
+  headline: "Shaopeng has a new preprint out! CMash: fast, multi-resolution estimation of k-mer-based Jaccard and containment indices, accessible via the bioRxiv: https://www.biorxiv.org/content/10.1101/2021.12.06.471436v2"
 - date: September 3, 2021
   headline: "Wei Wei is giving a talk titled 'Using the UniFrac metric on whole genome shotgun data' at the Microbiome Center weekly meeting at 11am in Huck Life Sciences Bld 100"
 - date: August 31, 2021
