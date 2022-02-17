@@ -60,6 +60,29 @@
 
 #################################### 2022
 
+
+###Preprint: FracMinHash
+- id: 10.1101/2022.01.11.475870
+  image: images/publication/compare-ani-staphylococcus.png
+  tags:
+    - FracMinHash
+    - ANI
+    - Confidence intervals
+    - Mutation rate
+  descriptions: >
+    In this paper, we theoretically analyzed FracMinHash, proved a bias in the estimator, and finally showed how to debias the estimator. We then showed how this FracMinHash estimator can be used to estimate the evolutionary distance of two genomes. Our results show that mutation rates determined by our analyses are more accurate across a wider range of evolutionary distances compared to classical MinHash techniques.
+  extra-links:
+    - type: data
+      link: paper_intro/rxiv_FracMinHash
+      text: Highlights
+    - type: source
+      link: https://github.com/KoslickiLab/mutation-rate-ci-calculator
+      text: Github
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/2022.01.11.475870v2.abstract
+      text: Preprint
+
+
 ###Preprint: WGSUniFrac
 - id: 10.1101/2022.01.17.476629
   image: images/publication/wgsunifrac_procedures.png
