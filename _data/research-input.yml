@@ -77,7 +77,7 @@
       link: paper_intro/rxiv_FracMinHash-SourMash
       text: Highlights
     - type: source
-      link: github.com/diblab/sourmash/
+      link: https://github.com/sourmash-bio/sourmash
       text: Github
 
 
