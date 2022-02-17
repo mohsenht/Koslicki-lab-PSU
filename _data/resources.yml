@@ -179,6 +179,12 @@
   link: https://youtu.be/MPt6kqjt4sA
   description: A drug repurposing talk from CGSI 2019
 
+# EMDUnifrac
+- title: "Using the Earth-mover's Distance to compare microbial communities"
+  type: talk
+  image: images/EMDUnifrac.jpg
+  link: https://youtu.be/MPt6kqjt4sA
+  description: A talk on EMDUniFrac given at CGSI in 2017
   
 
 
