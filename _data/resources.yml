@@ -165,7 +165,12 @@
 
 
 ######################################## Outreach: outreach
-
+# Metapalette
+- title: "Metapalette explainer video"
+  type: outreach
+  image: images/metapalette.jpeg
+  link: https://youtu.be/emMCAJ2oeP4
+  description: A video featured by the journal mSystems that describes how our metagenomic taxonomic profiler 'Metapalette' works.
 
 
   
