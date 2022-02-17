@@ -164,14 +164,20 @@
 
 
 
-######################################## Outreach: outreach
+######################################## Presentations: talks
 # Metapalette
 - title: "Metapalette explainer video"
-  type: outreach
+  type: talk
   image: images/metapalette.jpeg
   link: https://youtu.be/emMCAJ2oeP4
   description: A video featured by the journal mSystems that describes how our metagenomic taxonomic profiler 'Metapalette' works.
 
+# ARAX
+- title: "Leveraging Biomedical Repositories to Discover New Uses for Drugs"
+  type: talk
+  image: images/arax.jpeg
+  link: https://youtu.be/MPt6kqjt4sA
+  description: A drug repurposing talk from CGSI 2019
 
   
 
