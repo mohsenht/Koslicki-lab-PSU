@@ -29,7 +29,7 @@
     link: paper_intro/rxiv_FracMinHash-SourMash
     text: Highlights
   - type: source
-    link: github.com/diblab/sourmash/
+    link: https://github.com/sourmash-bio/sourmash
     text: Github
 - title: Debiasing FracMinHash and deriving confidence intervals for mutation rates
     across a wide range of evolutionary distances
