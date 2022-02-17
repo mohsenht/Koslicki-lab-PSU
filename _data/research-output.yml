@@ -1,3 +1,36 @@
+- title: Lightweight compositional analysis of metagenomes with FracMinHash and minimum
+    metagenome covers
+  authors:
+  - Luiz Irber
+  - Phillip T. Brooks
+  - Taylor Reiter
+  - N. Tessa Pierce-Ward
+  - Mahmudur Rahman Hera
+  - David Koslicki
+  - C. Titus Brown
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-01-12'
+  link: https://doi.org/gn34zt
+  id: 10.1101/2022.01.11.475838
+  image: images/publication/fracminhash-sourmash.png
+  tags:
+  - FracMinHash
+  - Sourmash
+  - Metagenome
+  - Compositional analysis
+  - Minimum metagenome cover
+  descriptions: 'Implementation of FracMinHash sketching technique into sourmash software
+    package, and analysis of FracMinHash in shotgun metagenome compositional analysis
+    after modeling the problem as minimum metagenome cover
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_FracMinHash-SourMash
+    text: Highlights
+  - type: source
+    link: github.com/diblab/sourmash/
+    text: Github
 - title: Debiasing FracMinHash and deriving confidence intervals for mutation rates
     across a wide range of evolutionary distances
   authors:
