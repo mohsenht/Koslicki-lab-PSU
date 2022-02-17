@@ -1,3 +1,37 @@
+- title: Debiasing FracMinHash and deriving confidence intervals for mutation rates
+    across a wide range of evolutionary distances
+  authors:
+  - Mahmudur Rahman Hera
+  - N. Tessa Pierce-Ward
+  - David Koslicki
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-01-12'
+  link: https://doi.org/gn342h
+  id: 10.1101/2022.01.11.475870
+  image: images/publication/compare-ani-staphylococcus.png
+  tags:
+  - FracMinHash
+  - ANI
+  - Confidence intervals
+  - Mutation rate
+  descriptions: 'In this paper, we theoretically analyzed FracMinHash, proved a bias
+    in the estimator, and finally showed how to debias the estimator. We then showed
+    how this FracMinHash estimator can be used to estimate the evolutionary distance
+    of two genomes. Our results show that mutation rates determined by our analyses
+    are more accurate across a wider range of evolutionary distances compared to classical
+    MinHash techniques.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/rxiv_FracMinHash
+    text: Highlights
+  - type: source
+    link: https://github.com/KoslickiLab/mutation-rate-ci-calculator
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2022.01.11.475870v2.abstract
+    text: Preprint
 - title: Using the UniFrac metric on Whole Genome Shotgun data
   authors:
   - Wei Wei
