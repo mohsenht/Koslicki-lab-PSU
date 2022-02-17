@@ -5,7 +5,7 @@ redirect_from: /media
 
 # <i class="fas fa-scroll"></i>Media
 
-This page includes more lab information and outreaches.
+This page includes links to media about the lab.
 
 <!-- section break -->
 
@@ -26,7 +26,7 @@ This page includes more lab information and outreaches.
 
 
 
-## Outreaches
+## Outreach
 {% capture html %}
 {% include resource-list.html type="outreach" size="medium" %}
 {% endcapture %}
