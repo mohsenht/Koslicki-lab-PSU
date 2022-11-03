@@ -1,11 +1,5 @@
 # Koslicki lab page documentation v1.00
 
-
-
-<h2><font color="red">To be discussed </font></h2> 
-
-
-
 <h2><font color="blue">Documentation </font></h2> 
 
 Contents:
@@ -41,7 +35,7 @@ It's recommended to maintain a local copy of the repo so the steps below are muc
 
 - go to the local [repo folder](https://github.com/KoslickiLab/Koslicki-lab-PSU)
 - add your image (e.g. peter.png) to [images/team ](https://github.com/KoslickiLab/Koslicki-lab-PSU/tree/master/images/team) folder (all format works, jpeg, jpg, png, pdf, etc.)
-- go to [_members](https://github.com/KoslickiLab/Koslicki-lab-PSU/tree/master/_members) folde, a simple way is to copy a current file as a template, for example you can do
+- go to [_members](https://github.com/KoslickiLab/Koslicki-lab-PSU/tree/master/_members) folder, a simple way is to copy a current file as a template, for example you can do
 
 ```
 cp shaopeng-liu.md  peter.md
@@ -58,13 +52,35 @@ It's recommended to maintain a local copy of the repo so the steps below are muc
 
 - go to the local [repo folder](https://github.com/KoslickiLab/Koslicki-lab-PSU)
 - open [_data/research-input.yml](https://github.com/KoslickiLab/Koslicki-lab-PSU/blob/master/_data/research-input.yml) file (this is the YAML file input for the autocite robot)
-- follow the YAML format (key:value pair) to add your paper:
+- Note before editing the yamal file:
+
+  - the update of publication page takes 2~3mins after your commit as it's done by Github action automatically
+  - records are manually added in this manner: Arxiv - 2022 - 2021- 2020 -......
+
+- follow the YAML format (key:value pair) to add your paper 
   - id: recommend DOI
   - image: an illustrative figure (whether local or from the web)
   - tag: arbitrary key words
   - repo: optional, this is where the bot obtain key words
   - description: a few sentences to be shown for the paper
   - extra-links: this is where you put various links such as github
+
+  - Specifically, you can add some details linked to the "Highlight" icon under each publication record. To do so, create a markdown file in the "publications/paper_intro" folder, and add links in the "extra-links" session. For example: 
+    ```
+    # you create a file here: publications/paper_intro/foo.md
+    
+    # then you add this to the research-input.yml file
+    - id: xxx
+      image: xxx
+      tags: xxx
+      descriptions: xxx
+      extra-links:
+        - type: data
+          link: paper_intro/foo   # don't need ".md" suffix
+          text: Highlights
+    ```
+
+    
 
 
 
