@@ -1,3 +1,109 @@
+- title: 'ARAX: a graph-based modular reasoning tool for translational biomedicine'
+  authors:
+  - Amy K. Glen
+  - Chunyu Ma
+  - Luis Mendoza
+  - Finn Womack
+  - E. C. Wood
+  - Meghamala Sinha
+  - Liliana Acevedo
+  - Lindsey G. Kvarfordt
+  - Ross C. Peene
+  - Shaopeng Liu
+  - Andrew S. Hoffman
+  - Jared C. Roach
+  - Eric W. Deutsch
+  - Stephen A. Ramsey
+  - David Koslicki
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-08-16'
+  link: https://doi.org/gq6hdj
+  id: 10.1101/2022.08.12.503810
+  image: images/publication/rxiv_arax.png
+  tags:
+  - knowledge graphs
+  - translational science
+  - biomedical
+  - reasoning
+  descriptions: "We introduce ARAX, a new reasoning system for translational biomedicine\
+    \ that provides a web browser user interface and an application programming interface.\
+    \ ARAX enables users to encode translational biomedical questions and to integrate\
+    \ knowledge across sources to answer the user9s query and facilitate exploration\
+    \ of results. For ARAX, we developed new approaches to query planning, knowledge-gathering,\
+    \ reasoning, and result ranking and dynamically integrate knowledge providers\
+    \ for answering biomedical questions. \n"
+  extra-links:
+  - type: data
+    link: null
+    text: Highlights
+  - type: source
+    link: https://github.com/RTXteam/RTX
+    text: Github
+- title: 'TAMPA: interpretable analysis and visualization of metagenomics-based taxon
+    abundance profiles'
+  authors:
+  - Varuni Sarwal
+  - Jaqueline Brito
+  - Serghei Mangul
+  - David Koslicki
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-04-29'
+  link: https://doi.org/gqpd6b
+  id: 10.1101/2022.04.28.489926
+  image: images/publication/rxiv_tempa.png
+  tags:
+  - metagenomic
+  - profiling
+  - visualization
+  descriptions: "Here we report the development of TAMPA (Taxonomic metagenome profiling\
+    \ evaluation) , a robust and easy-to-use method that allows scientists to easily\
+    \ interpret and interact with taxonomic profiles produced by the many different\
+    \ taxonomic profiler methods beyond the standard metrics used by the scientific\
+    \ community. We demonstrate the unique ability of TAMPA to provide important biological\
+    \ insights into the taxonomic differences between samples otherwise missed by\
+    \ commonly utilized metrics. Additionally, we show that TAMPA can help visualize\
+    \ the output of taxonomic profilers, enabling biologists to effectively choose\
+    \ the most appropriate profiling method to use on their metagenomics data. \n"
+  extra-links:
+  - type: data
+    link: null
+    text: Highlights
+  - type: source
+    link: https://github.com/dkoslicki/TAMPA
+    text: Github
+- title: The minimizer Jaccard estimator is biased and inconsistent*
+  authors:
+  - Mahdi Belbasi
+  - Antonio Blanca
+  - Robert S. Harris
+  - David Koslicki
+  - Paul Medvedev
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-01-17'
+  link: https://doi.org/gpm78w
+  id: 10.1101/2022.01.14.476226
+  image: images/publication/rxiv_minimizer_ji_bias.png
+  tags:
+  - MinHash
+  - minimizer
+  - Jaccard
+  descriptions: 'We show that the minimizer Jaccard estimator is biased and inconsistent,
+    which means that the expected difference (i.e., the bias) between the estimator
+    and the true value is not zero, even in the limit as the lengths of the sequences
+    grow. We derive an analytical formula for the bias as a function of how the shared
+    k-mers are laid out along the sequences. We show both theoretically and empirically
+    that there are families of sequences where the bias can be substantial (e.g. the
+    true Jaccard can be more than double the estimate). Finally, we demonstrate that
+    this bias affects the accuracy of the widely used mashmap read mapping tool.
+
+    '
+  extra-links:
+  - type: data
+    link: null
+    text: Highlights
+  - type: source
+    link: https://github.com/medvedevgroup/minimizer-jaccard-estimator/tree/main/reproduce
+    text: Github
 - title: Lightweight compositional analysis of metagenomes with FracMinHash and minimum
     metagenome covers
   authors:
@@ -64,263 +170,6 @@
     text: Github
   - type: preprint
     link: https://www.biorxiv.org/content/10.1101/2022.01.11.475870v2.abstract
-    text: Preprint
-- title: Using the UniFrac metric on Whole Genome Shotgun data
-  authors:
-  - Wei Wei
-  - David Koslicki
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-01-20'
-  link: https://doi.org/gpg3b8
-  id: 10.1101/2022.01.17.476629
-  image: images/publication/wgsunifrac_procedures.png
-  tags:
-  - UniFrac
-  - WGS
-  - Similarity metric
-  descriptions: 'An extension of the UniFrac metric typically applied to 16S rRNA
-    data to Whole Genome Shotgun data.
-
-    '
-  extra-links:
-  - type: data
-    link: null
-    text: Highlights
-  - type: source
-    link: https://github.com/KoslickiLab/WGSUniFrac
-    text: Github
-  - type: preprint
-    link: https://doi.org/10.1101/2022.01.17.476629
-    text: Preprint
-- title: 'CMash: fast, multi-resolution estimation of k-mer-based Jaccard and containment
-    indices'
-  authors:
-  - Shaopeng Liu
-  - David Koslicki
-  publisher: Cold Spring Harbor Laboratory
-  date: '2021-12-07'
-  link: https://doi.org/gpgf5r
-  id: 10.1101/2021.12.06.471436
-  image: images/publication/rxiv_CMash.png
-  tags:
-  - k-mer
-  - Jaccard index
-  - MinHash
-  - Containment index
-  - Truncation
-  descriptions: 'Utilizing truncation-based methods, we can obtain multi-resolution
-    estimation of k-mer-based JI/CI in linear time for a range of k values.
-
-    '
-  extra-links:
-  - type: data
-    link: paper_intro/rxiv_CMash
-    text: Highlights
-  - type: source
-    link: https://github.com/dkoslicki/CMash
-    text: Github
-  - type: preprint
-    link: https://www.biorxiv.org/content/10.1101/2021.12.06.471436v1
-    text: Preprint
-- title: 'RTX-KG2: a system for building a semantically standardized knowledge graph
-    for translational biomedicine'
-  authors:
-  - E. C. Wood
-  - Amy K. Glen
-  - Lindsey G. Kvarfordt
-  - Finn Womack
-  - Liliana Acevedo
-  - Timothy S. Yoon
-  - Chunyu Ma
-  - Veronica Flores
-  - Meghamala Sinha
-  - Yodsawalai Chodpathumwan
-  - Arash Termehchy
-  - Jared C. Roach
-  - Luis Mendoza
-  - Andrew S. Hoffman
-  - Eric W. Deutsch
-  - David Koslicki
-  - Stephen A. Ramsey
-  publisher: Cold Spring Harbor Laboratory
-  date: '2021-10-18'
-  link: https://doi.org/gm6xqw
-  id: 10.1101/2021.10.17.464747
-  image: images/publication/rxiv_RTX_KG2.png
-  tags:
-  - Temp_PREPRINT
-  - knowledge graphs
-  - biomedical knowledge integration
-  - semantic normalization
-  descriptions: 'We develop RTX-KG2, a biomedical knowledge graph that uses an Extract-Transform-Load
-    (ETL) approach to integrate 70 knowledge sources (including UMLS, SemMedDB, ChEMBL,
-    DrugBank, SMPDB, and 65 additional knowledge sources) into a single knowledge
-    graph and conforms to the Biolink standard metamodel.
-
-    '
-  extra-links:
-  - type: data
-    link: paper_intro/rxiv_RTX_KG2
-    text: Highlights
-  - type: source
-    link: https://github.com/RTXteam/RTX-KG2
-    text: Github
-  - type: preprint
-    link: https://www.biorxiv.org/content/10.1101/2021.10.17.464747v1
-    text: Preprint
-- title: Critical Assessment of Metagenome Interpretation - the second round of challenges
-  authors:
-  - F. Meyer
-  - A. Fritz
-  - Z.-L. Deng
-  - D. Koslicki
-  - A. Gurevich
-  - G. Robertson
-  - M. Alser
-  - D. Antipov
-  - F. Beghini
-  - D. Bertrand
-  - J. J. Brito
-  - C.T. Brown
-  - J. Buchmann
-  - "A. Bulu\xE7"
-  - B. Chen
-  - R. Chikhi
-  - P. T. Clausen
-  - A. Cristian
-  - P. W. Dabrowski
-  - A. E. Darling
-  - R. Egan
-  - E. Eskin
-  - E. Georganas
-  - E. Goltsman
-  - M. A. Gray
-  - L. H. Hansen
-  - S. Hofmeyr
-  - P. Huang
-  - L. Irber
-  - H. Jia
-  - "T. S. J\xF8rgensen"
-  - S. D. Kieser
-  - T. Klemetsen
-  - A. Kola
-  - M. Kolmogorov
-  - A. Korobeynikov
-  - J. Kwan
-  - N. LaPierre
-  - C. Lemaitre
-  - C. Li
-  - A. Limasset
-  - F. Malcher-Miranda
-  - S. Mangul
-  - V. R. Marcelino
-  - C. Marchet
-  - P. Marijon
-  - D. Meleshko
-  - D. R. Mende
-  - A. Milanese
-  - N. Nagarajan
-  - J. Nissen
-  - S. Nurk
-  - L. Oliker
-  - L. Paoli
-  - P. Peterlongo
-  - V. C. Piro
-  - J. S. Porter
-  - S. Rasmussen
-  - E. R. Rees
-  - K. Reinert
-  - B. Renard
-  - E. M. Robertsen
-  - G. L. Rosen
-  - H.-J. Ruscheweyh
-  - V. Sarwal
-  - N. Segata
-  - E. Seiler
-  - L. Shi
-  - F. Sun
-  - S. Sunagawa
-  - "S. J. S\xF8rensen"
-  - A. Thomas
-  - C. Tong
-  - M. Trajkovski
-  - J. Tremblay
-  - G. Uritskiy
-  - R. Vicedomini
-  - Zi. Wang
-  - Zhe. Wang
-  - Zho. Wang
-  - A. Warren
-  - N. P. Willassen
-  - K. Yelick
-  - R. You
-  - G. Zeller
-  - Z. Zhao
-  - S. Zhu
-  - J. Zhu
-  - R. Garrido-Oter
-  - P. Gastmeier
-  - S. Hacquard
-  - "S. H\xE4u\xDFler"
-  - A. Khaledi
-  - F. Maechler
-  - F. Mesny
-  - S. Radutoiu
-  - P. Schulze-Lefert
-  - N. Smit
-  - T. Strowig
-  - A. Bremges
-  - A. Sczyrba
-  - A. C. McHardy
-  publisher: Cold Spring Harbor Laboratory
-  date: '2021-07-12'
-  link: https://doi.org/gk566x
-  id: 10.1101/2021.07.12.451567
-  image: images/publication/rxiv_CAMI_2nd.png
-  tags:
-  - Temp_PREPRINT
-  - metagenomics
-  - CAMI
-  descriptions: 'We analyze and present the results of the second round of the CAMI
-    competition. Over 5,000 results were submitted by 76 different metagenomic tools
-    covering the tasks of assembly, binning, and profiling.
-
-    '
-  extra-links:
-  - type: data
-    link: paper_intro/rxiv_CAMI_2nd
-    text: Highlights
-  - type: source
-    link: https://github.com/CAMI-challenge
-    text: Github
-  - type: preprint
-    link: https://www.biorxiv.org/content/10.1101/2021.07.12.451567v1
-    text: Preprint
-- title: The statistics of k-mers from a sequence undergoing a simple mutation process
-    without spurious matches
-  authors:
-  - Antonio Blanca
-  - Robert S. Harris
-  - David Koslicki
-  - Paul Medvedev
-  publisher: Cold Spring Harbor Laboratory
-  date: '2021-01-17'
-  link: https://doi.org/fq3g
-  id: 10.1101/2021.01.15.426881
-  image: images/publication/rxiv_kmer_stats.png
-  tags:
-  - Temp_PREPRINT
-  - k-mer
-  descriptions: 'We derive hypothesis tests and confidence intervals for sequence
-    similarities based on a simple mutation process.
-
-    '
-  extra-links:
-  - type: data
-    link: paper_intro/rxiv_kmer_stats
-    text: Highlights
-  - type: preprint
-    link: https://www.biorxiv.org/content/10.1101/2021.01.15.426881v2
     text: Preprint
 - title: Leveraging Distributed Biomedical Knowledge Sources to Discover Novel Uses
     for Known Drugs
@@ -414,6 +263,742 @@
     text: Highlights
   - type: preprint
     link: https://arxiv.org/abs/1911.11304
+    text: Preprint
+- title: 'RTX-KG2: a system for building a semantically standardized knowledge graph
+    for translational biomedicine'
+  authors:
+  - E. C. Wood
+  - Amy K. Glen
+  - Lindsey G. Kvarfordt
+  - Finn Womack
+  - Liliana Acevedo
+  - Timothy S. Yoon
+  - Chunyu Ma
+  - Veronica Flores
+  - Meghamala Sinha
+  - Yodsawalai Chodpathumwan
+  - Arash Termehchy
+  - Jared C. Roach
+  - Luis Mendoza
+  - Andrew S. Hoffman
+  - Eric W. Deutsch
+  - David Koslicki
+  - Stephen A. Ramsey
+  publisher: BMC Bioinformatics
+  date: '2022-09-29'
+  link: https://doi.org/gqxmkb
+  id: 10.1186/s12859-022-04932-3
+  image: images/publication/2022_RTX_KG2.png
+  tags:
+  - Temp_PREPRINT
+  - knowledge graphs
+  - biomedical knowledge integration
+  - semantic normalization
+  descriptions: 'We develop RTX-KG2, a biomedical knowledge graph that uses an Extract-Transform-Load
+    (ETL) approach to integrate 70 knowledge sources (including UMLS, SemMedDB, ChEMBL,
+    DrugBank, SMPDB, and 65 additional knowledge sources) into a single knowledge
+    graph and conforms to the Biolink standard metamodel.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/2022_RTX_KG2
+    text: Highlights
+  - type: source
+    link: https://github.com/RTXteam/RTX-KG2
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2021.10.17.464747v1
+    text: Preprint
+- title: Progress toward a universal biomedical data translator
+  authors:
+  - Karamarie Fecho
+  - Anne E. Thessen
+  - Sergio E. Baranzini
+  - Chris Bizon
+  - Jennifer J. Hadlock
+  - Sui Huang
+  - Ryan T. Roper
+  - Noel Southall
+  - Casey Ta
+  - Paul B. Watkins
+  - Mark D. Williams
+  - Hao Xu
+  - William Byrd
+  - "Vlado Dan\u010D\xEDk"
+  - Marc P. Duby
+  - Michel Dumontier
+  - Gustavo Glusman
+  - Nomi L. Harris
+  - Eugene W. Hinderer
+  - Greg Hyde
+  - Adam Johs
+  - Andrew I. Su
+  - Guangrong Qin
+  - Qian Zhu
+  - Liliana Acevedo
+  - Stanley C. Ahalt
+  - John Alden
+  - Ahmed Alkanaq
+  - Nada Amin
+  - Ricardo Avila
+  - Michael Bada
+  - Jim Balhoff
+  - Andrew Baumgartner
+  - William Baumgartner
+  - Basazin Belhu
+  - Mac Kenzie Brandes
+  - Namdi Brandon
+  - Matthew Brush
+  - Richard Bruskiewich
+  - Noel Burtt
+  - Jackson Callaghan
+  - Marco Alvarado Cano
+  - Steven Carrell
+  - J. Harry Caufield
+  - Remzi Celebi
+  - James Champion
+  - Zhehuan Chen
+  - "Mei\u2010Jan Chen"
+  - Lawrence Chung
+  - Paul A. Clemons
+  - Kevin Cohen
+  - Tom Conlin
+  - Dan Corkill
+  - Maria Costanzo
+  - Steven Cox
+  - Andrew Crouse
+  - Camerron Crowder
+  - Mary E. Crumbley
+  - Cheng Dai
+  - Ricardo De Miranda Azevedo
+  - Eric Deutsch
+  - Jennifer Dougherty
+  - Venkata Duvvuri
+  - Stephen Edwards
+  - Vincent Emonet
+  - Nathaniel Fehrmann
+  - Jason Flannick
+  - Aleksandra M. Foksinska
+  - Vicki Gardner
+  - Edgar Gatica
+  - Amy Glen
+  - Prateek Goel
+  - Joseph Gormley
+  - Alon Greyber
+  - Perry Haaland
+  - Melissa A. Haendel
+  - Kristina Hanspers
+  - Kaiwen He
+  - Jeff Henrickson
+  - Maureen Hoatlin
+  - Andrew Hoffman
+  - Conrad Huang
+  - Robert Hubal
+  - "Kenneth Huellas\u2010Bruskiewicz"
+  - Forest B. Huls
+  - Lawrence Hunter
+  - Tursynay Issabekova
+  - Matthew Jarrell
+  - Lindsay Jenkins
+  - Arpita Joshi
+  - Jimin Kang
+  - Richa Kanwar
+  - Yaphet Kebede
+  - Keum Joo Kim
+  - Alexandria Kluge
+  - Michael Knowles
+  - Ryan Koesterer
+  - Daniel Korn
+  - David Koslicki
+  - Ashok Krishnamurthy
+  - Lindsey Kvarfordt
+  - Jay Lee
+  - Margaret Leigh
+  - Jason Lin
+  - Zheng Liu
+  - Shaopeng Liu
+  - Chunyu Ma
+  - Andrew Magis
+  - Tarun Mamidi
+  - Meisha Mandal
+  - Michelle Mantilla
+  - Jeffrey Massung
+  - Denise Mauldin
+  - Jason McClelland
+  - Julie McMurry
+  - Philip Mease
+  - Luis Mendoza
+  - Marian Mersmann
+  - Abrar Mesbah
+  - Matthew Might
+  - Kenny Morton
+  - Sierra A. T. Moxon
+  - Sandrine Muller
+  - Arun Teja Muluka
+  - Christopher J. Mungall
+  - John Osborne
+  - Phil Owen
+  - Michael Patton
+  - David B. Peden
+  - R. Carter Peene
+  - Bria Persaud
+  - Emily Pfaff
+  - Alexander Pico
+  - Elizabeth Pollard
+  - Guthrie Price
+  - Tim Putman
+  - Shruti Raj
+  - Stephen A. Ramsey
+  - Jason Reilly
+  - Anders Riutta
+  - Jared Roach
+  - Greg Rosenblatt
+  - Irit Rubin
+  - Sienna Rucka
+  - "Nathaniel Rudavsky\u2010Brody"
+  - Rayn Sakaguchi
+  - Eugene Santos
+  - Kevin Schaper
+  - Charles P. Schmitt
+  - Shepherd Schurman
+  - Erik Scott
+  - Sarah Seitanakis
+  - Priya Sharma
+  - Kent A. Shefchek
+  - Ilya Shmulevich
+  - Manil Shrestha
+  - Shalki Shrivastava
+  - Meghamala Sinha
+  - Brett Smith
+  - Harold Solbrig
+  - Karthik Soman
+  - Nicholas Southern
+  - Lisa Stillwell
+  - "Michael \u201C Michi\u201D Strasser"
+  - Anne E. Thessen
+  - Jillian Tinglin
+  - Lucas Tonstad
+  - "Thi Tran\u2010Nguyen"
+  - Alexander Tropsha
+  - Deepak R. Unni
+  - Gaurav Vaidya
+  - Luke Veenhuis
+  - Adam Viola
+  - Marcin von Grotthuss
+  - Max Wang
+  - Patrick Wang
+  - Rosina Weber
+  - Qi Wei
+  - Chunhua Weng
+  - Jordan Whitlock
+  - Andrew Williams
+  - Finn Womack
+  - Erica Wood
+  - Chunlei Wu
+  - Jiwen Kevin Xin
+  - Colleen Xu
+  - Chase Yakaboski
+  - Yao Yao
+  - Hong Yi
+  - Arif Yilmaz
+  - Marissa Zheng
+  - Xinghua Zhou
+  - Eric Zhou
+  - Tom Zisk
+  - ' '
+  publisher: Clinical and Translational Science
+  date: '2022-06-06'
+  link: https://doi.org/gq6hdk
+  id: 10.1111/cts.13301
+  image: images/publication/2022_pro_universal_kg.png
+  rags:
+  - knowledge graphs
+  - biomedical
+  - translational
+  - data Translator
+  descriptions: "The Biomedical Data Translator Consortium has developed and tested\
+    \ a pilot knowledge graph-based \u201CTranslator\u201D system capable of integrating\
+    \ existing biomedical data sets and \u201Ctranslating\u201D those data into insights\
+    \ intended to augment human reasoning and accelerate translational science. \n"
+  extra-links:
+  - type: data
+    link: null
+    text: Highlights
+- title: 'CMash: fast, multi-resolution estimation of k-mer-based Jaccard and containment
+    indices'
+  authors:
+  - Shaopeng Liu
+  - David Koslicki
+  publisher: Bioinformatics
+  date: '2022-06-24'
+  link: https://doi.org/gq6hdm
+  id: 10.1093/bioinformatics/btac237
+  image: images/publication/2022_CMash.png
+  tags:
+  - k-mer
+  - Jaccard index
+  - MinHash
+  - Containment index
+  - Truncation
+  descriptions: 'Utilizing truncation-based methods, we can obtain multi-resolution
+    estimation of k-mer-based JI/CI in linear time for a range of k values.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/2022_CMash
+    text: Highlights
+  - type: source
+    link: https://github.com/dkoslicki/CMash
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2021.12.06.471436v1
+    text: Preprint
+- title: 'Critical Assessment of Metagenome Interpretation: the second round of challenges'
+  authors:
+  - Fernando Meyer
+  - Adrian Fritz
+  - Zhi-Luo Deng
+  - David Koslicki
+  - Till Robin Lesker
+  - Alexey Gurevich
+  - Gary Robertson
+  - Mohammed Alser
+  - Dmitry Antipov
+  - Francesco Beghini
+  - Denis Bertrand
+  - Jaqueline J. Brito
+  - C. Titus Brown
+  - Jan Buchmann
+  - "Aydin Bulu\xE7"
+  - Bo Chen
+  - Rayan Chikhi
+  - Philip T. L. C. Clausen
+  - Alexandru Cristian
+  - Piotr Wojciech Dabrowski
+  - Aaron E. Darling
+  - Rob Egan
+  - Eleazar Eskin
+  - Evangelos Georganas
+  - Eugene Goltsman
+  - Melissa A. Gray
+  - Lars Hestbjerg Hansen
+  - Steven Hofmeyr
+  - Pingqin Huang
+  - Luiz Irber
+  - Huijue Jia
+  - "Tue Sparholt J\xF8rgensen"
+  - Silas D. Kieser
+  - Terje Klemetsen
+  - Axel Kola
+  - Mikhail Kolmogorov
+  - Anton Korobeynikov
+  - Jason Kwan
+  - Nathan LaPierre
+  - Claire Lemaitre
+  - Chenhao Li
+  - Antoine Limasset
+  - Fabio Malcher-Miranda
+  - Serghei Mangul
+  - Vanessa R. Marcelino
+  - Camille Marchet
+  - Pierre Marijon
+  - Dmitry Meleshko
+  - Daniel R. Mende
+  - Alessio Milanese
+  - Niranjan Nagarajan
+  - Jakob Nissen
+  - Sergey Nurk
+  - Leonid Oliker
+  - Lucas Paoli
+  - Pierre Peterlongo
+  - Vitor C. Piro
+  - Jacob S. Porter
+  - Simon Rasmussen
+  - Evan R. Rees
+  - Knut Reinert
+  - Bernhard Renard
+  - Espen Mikal Robertsen
+  - Gail L. Rosen
+  - Hans-Joachim Ruscheweyh
+  - Varuni Sarwal
+  - Nicola Segata
+  - Enrico Seiler
+  - Lizhen Shi
+  - Fengzhu Sun
+  - Shinichi Sunagawa
+  - "S\xF8ren Johannes S\xF8rensen"
+  - Ashleigh Thomas
+  - Chengxuan Tong
+  - Mirko Trajkovski
+  - Julien Tremblay
+  - Gherman Uritskiy
+  - Riccardo Vicedomini
+  - Zhengyang Wang
+  - Ziye Wang
+  - Zhong Wang
+  - Andrew Warren
+  - Nils Peder Willassen
+  - Katherine Yelick
+  - Ronghui You
+  - Georg Zeller
+  - Zhengqiao Zhao
+  - Shanfeng Zhu
+  - Jie Zhu
+  - Ruben Garrido-Oter
+  - Petra Gastmeier
+  - Stephane Hacquard
+  - "Susanne H\xE4u\xDFler"
+  - Ariane Khaledi
+  - Friederike Maechler
+  - Fantin Mesny
+  - Simona Radutoiu
+  - Paul Schulze-Lefert
+  - Nathiana Smit
+  - Till Strowig
+  - Andreas Bremges
+  - Alexander Sczyrba
+  - Alice Carolyn McHardy
+  publisher: Nature Methods
+  date: '2022-04-01'
+  link: https://doi.org/gpvs88
+  id: 10.1038/s41592-022-01431-4
+  image: images/publication/2022_cami_2nd.png
+  tags:
+  - metagenomics
+  - CAMI
+  descriptions: 'We analyze and present the results of the second round of the CAMI
+    competition. Over 5,000 results were submitted by 76 different metagenomic tools
+    covering the tasks of assembly, binning, and profiling.
+
+    '
+  extra-links:
+  - type: data
+    link: paper_intro/2022_CAMI_2nd.md
+    text: Highlights
+  - type: source
+    link: https://github.com/CAMI-challenge
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2021.07.12.451567v1
+    text: Preprint
+- title: 'Biolink Model: A universal schema for knowledge graphs in clinical, biomedical,
+    and translational science'
+  authors:
+  - Deepak R. Unni
+  - Sierra A. T. Moxon
+  - Michael Bada
+  - Matthew Brush
+  - Richard Bruskiewich
+  - J. Harry Caufield
+  - Paul A. Clemons
+  - Vlado Dancik
+  - Michel Dumontier
+  - Karamarie Fecho
+  - Gustavo Glusman
+  - Jennifer J. Hadlock
+  - Nomi L. Harris
+  - Arpita Joshi
+  - Tim Putman
+  - Guangrong Qin
+  - Stephen A. Ramsey
+  - Kent A. Shefchek
+  - Harold Solbrig
+  - Karthik Soman
+  - Anne E. Thessen
+  - Melissa A. Haendel
+  - Chris Bizon
+  - Christopher J. Mungall
+  - Liliana Acevedo
+  - Stanley C. Ahalt
+  - John Alden
+  - Ahmed Alkanaq
+  - Nada Amin
+  - Ricardo Avila
+  - Jim Balhoff
+  - Sergio E. Baranzini
+  - Andrew Baumgartner
+  - William Baumgartner
+  - Basazin Belhu
+  - MacKenzie Brandes
+  - Namdi Brandon
+  - Noel Burtt
+  - William Byrd
+  - Jackson Callaghan
+  - Marco Alvarado Cano
+  - Steven Carrell
+  - Remzi Celebi
+  - James Champion
+  - Zhehuan Chen
+  - "Mei\u2010Jan Chen"
+  - Lawrence Chung
+  - Kevin Cohen
+  - Tom Conlin
+  - Dan Corkill
+  - Maria Costanzo
+  - Steven Cox
+  - Andrew Crouse
+  - Camerron Crowder
+  - Mary E. Crumbley
+  - Cheng Dai
+  - "Vlado Dan\u010D\xEDk"
+  - Ricardo De Miranda Azevedo
+  - Eric Deutsch
+  - Jennifer Dougherty
+  - Marc P. Duby
+  - Venkata Duvvuri
+  - Stephen Edwards
+  - Vincent Emonet
+  - Nathaniel Fehrmann
+  - Jason Flannick
+  - Aleksandra M. Foksinska
+  - Vicki Gardner
+  - Edgar Gatica
+  - Amy Glen
+  - Prateek Goel
+  - Joseph Gormley
+  - Alon Greyber
+  - Perry Haaland
+  - Kristina Hanspers
+  - Kaiwen He
+  - Kaiwen He
+  - Jeff Henrickson
+  - Eugene W. Hinderer
+  - Maureen Hoatlin
+  - Andrew Hoffman
+  - Sui Huang
+  - Conrad Huang
+  - Robert Hubal
+  - "Kenneth Huellas\u2010Bruskiewicz"
+  - Forest B. Huls
+  - Lawrence Hunter
+  - Greg Hyde
+  - Tursynay Issabekova
+  - Matthew Jarrell
+  - Lindsay Jenkins
+  - Adam Johs
+  - Jimin Kang
+  - Richa Kanwar
+  - Yaphet Kebede
+  - Keum Joo Kim
+  - Alexandria Kluge
+  - Michael Knowles
+  - Ryan Koesterer
+  - Daniel Korn
+  - David Koslicki
+  - Ashok Krishnamurthy
+  - Lindsey Kvarfordt
+  - Jay Lee
+  - Margaret Leigh
+  - Jason Lin
+  - Zheng Liu
+  - Shaopeng Liu
+  - Chunyu Ma
+  - Andrew Magis
+  - Tarun Mamidi
+  - Meisha Mandal
+  - Michelle Mantilla
+  - Jeffrey Massung
+  - Denise Mauldin
+  - Jason McClelland
+  - Julie McMurry
+  - Philip Mease
+  - Luis Mendoza
+  - Marian Mersmann
+  - Abrar Mesbah
+  - Matthew Might
+  - Kenny Morton
+  - Sandrine Muller
+  - Arun Teja Muluka
+  - John Osborne
+  - Phil Owen
+  - Michael Patton
+  - David B. Peden
+  - R. Carter Peene
+  - Bria Persaud
+  - Emily Pfaff
+  - Alexander Pico
+  - Elizabeth Pollard
+  - Guthrie Price
+  - Shruti Raj
+  - Jason Reilly
+  - Anders Riutta
+  - Jared Roach
+  - Ryan T. Roper
+  - Greg Rosenblatt
+  - Irit Rubin
+  - Sienna Rucka
+  - "Nathaniel Rudavsky\u2010Brody"
+  - Rayn Sakaguchi
+  - Eugene Santos
+  - Kevin Schaper
+  - Charles P. Schmitt
+  - Shepherd Schurman
+  - Erik Scott
+  - Sarah Seitanakis
+  - Priya Sharma
+  - Ilya Shmulevich
+  - Manil Shrestha
+  - Shalki Shrivastava
+  - Meghamala Sinha
+  - Brett Smith
+  - Noel Southall
+  - Nicholas Southern
+  - Lisa Stillwell
+  - Michael " Michi" Strasser
+  - Andrew I. Su
+  - Casey Ta
+  - Anne E. Thessen
+  - Jillian Tinglin
+  - Lucas Tonstad
+  - "Thi Tran\u2010Nguyen"
+  - Alexander Tropsha
+  - Gaurav Vaidya
+  - Luke Veenhuis
+  - Adam Viola
+  - Marcin von Grotthuss
+  - Max Wang
+  - Patrick Wang
+  - Paul B. Watkins
+  - Rosina Weber
+  - Qi Wei
+  - Chunhua Weng
+  - Jordan Whitlock
+  - Mark D. Williams
+  - Andrew Williams
+  - Finn Womack
+  - Erica Wood
+  - Chunlei Wu
+  - Jiwen Kevin Xin
+  - Hao Xu
+  - Colleen Xu
+  - Chase Yakaboski
+  - Yao Yao
+  - Hong Yi
+  - Arif Yilmaz
+  - Marissa Zheng
+  - Xinghua Zhou
+  - Eric Zhou
+  - Qian Zhu
+  - Tom Zisk
+  - ' '
+  publisher: Clinical and Translational Science
+  date: '2022-06-06'
+  link: https://doi.org/gq6hdn
+  id: 10.1111/cts.13302
+  image: images/publication/2022_biolink.png
+  tags:
+  - knowledge graphs
+  - biomedical
+  - translational
+  descriptions: "Biolink Model is an open-source data model that can be used to formalize\
+    \ the relationships between data structures in translational science. It incorporates\
+    \ object-oriented classification and graph-oriented features. The core of the\
+    \ model is a set of hierarchical, interconnected classes (or categories) and relationships\
+    \ between them (or predicates) representing biomedical entities such as gene,\
+    \ disease, chemical, anatomic structure, and phenotype. The model provides class\
+    \ and edge attributes and associations that guide how entities should relate to\
+    \ one another. Here, we highlight the need for a standardized data model for KGs,\
+    \ describe Biolink Model, and compare it with other models. \n"
+  extra-links:
+  - type: data
+    link: null
+    text: Highlights
+  - type: preprint
+    link: https://arxiv.org/abs/2203.13906
+    text: Preprint
+- title: 'PressPurt: network sensitivity to press perturbations under interaction
+    uncertainty'
+  authors:
+  - David Koslicki
+  - Dana Gibbon
+  - Mark Novak
+  publisher: F1000Research
+  date: '2022-02-11'
+  link: https://doi.org/gq6hdp
+  id: 10.12688/f1000research.52317.1
+  image: images/publication/2022_Presspurt.png
+  tags:
+  - metagenomic
+  - visualization
+  - network
+  descriptions: "Here, we introduce PressPurt , a computational package for identifying\
+    \ the interactions whose strengths must be estimated most accurately in order\
+    \ to produce robust predictions of a network's response to press perturbations.\
+    \ The package provides methods for calculating and visualizing these edge-specific\
+    \ sensitivities (tolerances) when uncertainty is associated to one or more edges\
+    \ according to a variety of different error distributions. The software requires\
+    \ the network to be represented as a numerical (quantitative or qualitative) Jacobian\
+    \ matrix evaluated at stable equilibrium. \n"
+  extra-links:
+  - type: data
+    link: null
+    text: Highlights
+  - type: source
+    link: https://github.com/dkoslicki/PressPurt
+    text: Github
+- title: The Statistics of <i>k</i>-mers from a Sequence Undergoing a Simple Mutation
+    Process Without Spurious Matches
+  authors:
+  - Antonio Blanca
+  - Robert S. Harris
+  - David Koslicki
+  - Paul Medvedev
+  publisher: Journal of Computational Biology
+  date: '2022-02-01'
+  link: https://doi.org/gp7hqc
+  id: 10.1089/cmb.2021.0431
+  image: images/publication/2022_kmer_stats_simple_mut.png
+  tags:
+  - k-mer
+  - statistics
+  descriptions: "We derive the expectation and variance of the number of mutated k-mers\
+    \ and of the number of islands (a maximal interval of mutated k-mers) and oceans\
+    \ (a maximal interval of nonmutated k-mers). We then derive hypothesis tests and\
+    \ confidence intervals (CIs) for r given an observed number of mutated k-mers,\
+    \ or, alternatively, given the Jaccard similarity (with or without MinHash). \n"
+  extra-links:
+  - type: data
+    link: paper_intro/2022_kmer_stats
+    text: Highlights
+  - type: source
+    link: https://github.com/medvedevgroup/mutation-rate-intervals
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2021.01.15.426881v2
+    text: Preprint
+- title: 'WGSUniFrac: Applying UniFrac Metric to Whole Genome Shotgun Data'
+  authors:
+  - Wei Wei
+  - David Koslicki
+  publisher: "Schloss Dagstuhl - Leibniz-Zentrum f\xFCr Informatik"
+  date: '2022-01-01'
+  link: https://doi.org/gq6hdq
+  id: 10.4230/LIPIcs.WABI.2022.15
+  image: images/publication/2022_wgs_unifrac.png
+  tags:
+  - metagenomic
+  - WGS
+  - Unifrac
+  - Similarity metric
+  descriptions: 'In this study, we demonstrate a method to overcome this intrinsic
+    difference and compute the UniFrac metric on WGS data by assigning branch lengths
+    to the taxonomic tree obtained from input taxonomic profiles. We conduct a series
+    of experiments to demonstrate that this WGSUniFrac method is comparably robust
+    to traditional 16S UniFrac and is not highly sensitive to branch lengths assignments,
+    be they data-derived or model-prescribed.
+
+    '
+  extra-links:
+  - type: data
+    link: null
+    text: Highlights
+  - type: source
+    link: https://github.com/KoslickiLab/WGSUniFrac
+    text: Github
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/2022.01.17.476629v2.full
     text: Preprint
 - title: 'Technology dictates algorithms: recent developments in read alignment'
   authors:
@@ -534,9 +1119,9 @@
   tags:
   - metagenomic profiling
   - alignment
-  description: 'Utilizing a pre-filter strategy, Metalign performs efficient and accurate
-    alignment-based metagenomic profiling through the estimation of contaiment indices
-    of pre-built reference databases.
+  descriptions: 'Utilizing a pre-filter strategy, Metalign performs efficient and
+    accurate alignment-based metagenomic profiling through the estimation of contaiment
+    indices of pre-built reference databases.
 
     '
   extra-links:
@@ -565,7 +1150,7 @@
   tags:
   - metagenomics
   - database
-  description: 'We analyze and discuss guidelines for the development of a master
+  descriptions: 'We analyze and discuss guidelines for the development of a master
     reference database for disparate reference databases.
 
     '
@@ -924,8 +1509,8 @@
   - type: preprint
     link: https://www.biorxiv.org/content/10.1101/184150v1
     text: Preprint
-- title: "MetaPalette: a\n            k\n            -mer Painting Approach for Metagenomic\
-    \ Taxonomic Profiling and Quantification of Novel Strain Variation"
+- title: "MetaPalette: a\n            <i>k</i>\n            -mer Painting Approach\
+    \ for Metagenomic Taxonomic Profiling and Quantification of Novel Strain Variation"
   authors:
   - David Koslicki
   - Daniel Falush
