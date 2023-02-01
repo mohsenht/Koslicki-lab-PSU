@@ -1,1 +1,23 @@
+---
+layout: paper_summary
+title: "WGSUniFrac: Applying UniFrac Metric to Whole Genome Shotgun Data"
+---
 
+### Summary
+We developed a workflow in which the UniFrac distance can be computed directly on Whole
+Genome Shotgun data using taxanomic profiles, circumventing the requirement of a phylogenetic tree.
+
+### Abstract
+The UniFrac metric has proven useful in revealing diversity across metagenomic communities. 
+Due to the phylogeny-based nature of this measurement, UniFrac has historically only been applied to 16S rRNA data. 
+Simultaneously, Whole Genome Shotgun (WGS) metagenomics has been increasingly widely employed and proven to 
+provide more information than 16S data, but a UniFrac-like diversity metric suitable for WGS data has not 
+previously been developed. The main obstacle for UniFrac to be applied directly to WGS data is the absence 
+of phylogenetic distances in the taxonomic relationship derived from WGS data. In this study,
+we demonstrate a method to overcome this intrinsic difference and compute the UniFrac metric on WGS data by 
+assigning branch lengths to the taxonomic tree obtained from input taxonomic profiles. We conduct a series of 
+experiments to demonstrate that this WGSUniFrac method is comparably robust to traditional 16S UniFrac and is 
+not highly sensitive to branch lengths assignments, be they data-derived or model-prescribed. 
+
+
+<img src="../../images/publication/rxiv_RTX_KG2.png" />
