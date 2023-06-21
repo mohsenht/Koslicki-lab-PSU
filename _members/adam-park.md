@@ -6,7 +6,7 @@ search:
   - Adam
 
 # if image not specified, default will automatically be used
-image: images/team/adam.jpg ## the path of your profile photo, please put it under 'images/team' and name it as firstname-lastname.jpg
+image: images/team/adam.JPG ## the path of your profile photo, please put it under 'images/team' and name it as firstname-lastname.jpg
 
 # role must be included or person won't appear on team page
 role: masters ## options: pi-Principal Investigator, postdoc-Postdoctoral Researcher, phd-PhD Student, masters-Master's Student, undergrad-Undergraduate Student, highschool-High School Student, programmer-Software Engineer
