@@ -7,7 +7,7 @@ search:
   - Judith
 
 # if image not specified, default will automatically be used
-image: images/team/judith-rodriguez.JPG
+image: images/team/judith-rodriguez.jpg
 ## the path of your profile photo, please put it under 'images/team' and name it as firstname-lastname.jpg
 
 # role must be included or person won't appear on team page
