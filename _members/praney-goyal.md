@@ -13,7 +13,7 @@ image: images/team/praney-goyal.jpg ## the path of your profile photo, please pu
 role: undergrad ## options: pi-Principal Investigator, postdoc-Postdoctoral Researcher, phd-PhD Student, masters-Master's Student, undergrad-Undergraduate Student, highschool-High School Student, programmer-Software Engineer
 
 # add person to alumni group
-# group: alum ## comment it if you're not alumni
+group: alum ## comment it if you're not alumni
 
 # contact info and social media links
 email: pfg5135@psu.edu ## fill out your email
