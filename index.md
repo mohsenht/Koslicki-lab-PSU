@@ -20,7 +20,7 @@ The Koslicki lab focuses on computational biology. We are interested in developi
 {%
   include figure.html
   image="images/team/lab_photo_smaller.png"
-  caption="Our Team"
+  caption="Part of our team"
   width="100%" 
 %}
 
